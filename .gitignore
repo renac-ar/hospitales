@@ -1,0 +1,7 @@
+# Scripts internos (no van al sitio web)
+export_web_data_hosp.py
+PLANIFICACION.md
+CHANGELOG.md
+README.md
+__pycache__/
+*.pyc
