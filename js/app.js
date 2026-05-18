@@ -92,16 +92,14 @@
         });
 
         populateAnomalySelects();
-        populateYearSelects();
+        populateYearCheckboxes('filter-hosp-tabla-anios-container');
+        populateYearCheckboxes('filter-hosp-barras-anios-container');
         setupTemporalView();
         setupTablaView();
         setupBarrasView();
         setupDenomView();
-
-        updateTemporal();
-        updateTabla();
-        updateBarras();
-        updateDenom();
+        setupMultiSelectDropdown('dropdown-hosp-tabla-anios', 'btn-hosp-tabla-anios', 'filter-hosp-tabla-anios-container', updateTabla, true);
+        setupMultiSelectDropdown('dropdown-hosp-barras-anios', 'btn-hosp-barras-anios', 'filter-hosp-barras-anios-container', updateBarras, true);
     }
 
     // ═══ POPULATE SELECTS ════════════════════════════════════════════
@@ -134,16 +132,89 @@
         });
     }
 
-    function populateYearSelects() {
+    function populateYearCheckboxes(containerId) {
         const years = getYears();
-        ['filter-tabla-anio', 'filter-barras-anio'].forEach(id => {
-            const sel = document.getElementById(id); sel.innerHTML = '';
-            for (let i = years.length - 1; i >= 0; i--) {
-                const o = document.createElement('option'); o.value = years[i];
-                o.textContent = years[i]; if (i === years.length - 1) o.selected = true;
-                sel.appendChild(o);
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = '';
+        const maxYear = Math.max(...years);
+        for (let i = years.length - 1; i >= 0; i--) {
+            const label = document.createElement('label');
+            label.className = 'check-label';
+            label.innerHTML = `<input type="checkbox" value="${years[i]}" ${years[i] === maxYear ? 'checked' : ''}> ${years[i]}`;
+            container.appendChild(label);
+        }
+    }
+
+    function getSelectedCheckboxes(containerId) {
+        const container = document.getElementById(containerId);
+        if (!container) return [];
+        return Array.from(container.querySelectorAll('input:not(.chk-select-all):checked')).map(cb => cb.value);
+    }
+
+    function setupMultiSelectDropdown(dropdownId, buttonId, containerId, onChangeCallback, showSelectAll = true) {
+        const dropdown = document.getElementById(dropdownId);
+        const btn = document.getElementById(buttonId);
+        const container = document.getElementById(containerId);
+        if (!dropdown || !btn || !container) return;
+
+        let selectAllInput = null;
+        if (showSelectAll) {
+            const sal = document.createElement('label');
+            sal.className = 'check-label select-all-label';
+            sal.style.cssText = 'font-weight:600;border-bottom:1px solid #eee;padding-bottom:8px;margin-bottom:4px';
+            sal.innerHTML = '<input type="checkbox" class="chk-select-all"> Seleccionar todos';
+            container.insertBefore(sal, container.firstChild);
+            selectAllInput = sal.querySelector('input');
+        }
+        const regularInputs = Array.from(container.querySelectorAll('input:not(.chk-select-all)'));
+        if (showSelectAll) {
+            selectAllInput.addEventListener('change', e => {
+                regularInputs.forEach(inp => { inp.checked = e.target.checked; });
+            });
+        }
+        btn.addEventListener('click', e => { e.stopPropagation(); container.classList.toggle('show'); });
+        document.addEventListener('click', e => { if (!dropdown.contains(e.target)) container.classList.remove('show'); });
+        container.addEventListener('change', e => {
+            if (showSelectAll && e.target !== selectAllInput) {
+                const all = regularInputs.every(i => i.checked);
+                const some = regularInputs.some(i => i.checked);
+                selectAllInput.checked = all;
+                selectAllInput.indeterminate = some && !all;
             }
+            const checked = regularInputs.filter(i => i.checked);
+            if (checked.length === 0) btn.textContent = 'Ninguno seleccionado';
+            else if (checked.length === 1) btn.textContent = checked[0].parentElement.textContent.trim();
+            else if (checked.length === regularInputs.length) btn.textContent = 'Todos seleccionados';
+            else btn.textContent = `${checked.length} seleccionados`;
+            if (onChangeCallback) onChangeCallback();
         });
+        setTimeout(() => {
+            if (showSelectAll) {
+                const all = regularInputs.every(i => i.checked);
+                selectAllInput.checked = all;
+                selectAllInput.indeterminate = regularInputs.some(i => i.checked) && !all;
+            }
+            container.dispatchEvent(new Event('change'));
+        }, 0);
+    }
+
+    function poissonCI(k, n, factor) {
+        if (!n || k == null) return { inf: null, sup: null };
+        function normInv(p) {
+            const a = [2.515517, 0.802853, 0.010328], b = [1.432788, 0.189269, 0.001308];
+            const t = Math.sqrt(-2 * Math.log(p < 0.5 ? p : 1 - p));
+            const z = t - (a[0] + t*(a[1] + t*a[2])) / (1 + t*(b[0] + t*(b[1] + t*b[2])));
+            return p < 0.5 ? -z : z;
+        }
+        function chi2q(p, df) {
+            if (df <= 0) return 0;
+            const z = normInv(p);
+            return df * Math.pow(Math.max(0, 1 - 2/(9*df) + z * Math.sqrt(2/(9*df))), 3);
+        }
+        const lo = k > 0 ? chi2q(0.025, 2*k) / 2 / n * factor : 0;
+        const hi = chi2q(0.975, 2*(k+1)) / 2 / n * factor;
+        return { inf: Math.max(0, lo).toFixed(2), sup: hi.toFixed(2) };
     }
 
     function populateEntitySelect(selectId, level, selectedProv) {
@@ -316,37 +387,52 @@
         }
         levelSel.addEventListener('change', onLevelChange);
         document.getElementById('filter-tabla-entity').addEventListener('change', updateTabla);
-        document.getElementById('filter-tabla-anio').addEventListener('change', updateTabla);
         onLevelChange();
 
         document.getElementById('btn-download-tabla').addEventListener('click', () => {
             const level = document.getElementById('filter-tabla-level').value;
             const entity = level === 'pais' ? 'ARGENTINA' : document.getElementById('filter-tabla-entity').value;
-            const anio = parseInt(document.getElementById('filter-tabla-anio').value);
-            downloadCSV(query({ entity, level, anio }), `renac_hosp_tabla_${entity}_${anio}.csv`);
+            const years = getSelectedCheckboxes('filter-hosp-tabla-anios-container').map(Number);
+            const rows = DATA.filter(r => r.entity === entity && r.level === level && years.includes(r.anio));
+            downloadCSV(rows, `renac_hosp_tabla_${entity}.csv`);
         });
     }
 
     function updateTabla() {
         const level = document.getElementById('filter-tabla-level').value;
         const entity = level === 'pais' ? 'ARGENTINA' : document.getElementById('filter-tabla-entity').value;
-        const anio = parseInt(document.getElementById('filter-tabla-anio').value);
+        const selectedYears = getSelectedCheckboxes('filter-hosp-tabla-anios-container').map(Number);
+        if (!selectedYears.length) return;
+        const isMultiYear = selectedYears.length > 1;
+        const yearLabel = isMultiYear ? `${Math.min(...selectedYears)}–${Math.max(...selectedYears)}` : selectedYears[0];
 
         document.getElementById('tabla-title').textContent =
-            `Prevalencia — ${entityLabel(entity, level)} — ${anio}`;
+            `Prevalencia — ${entityLabel(entity, level)} — ${yearLabel}`;
 
-        // Get nacimientos from hlptrue row
-        const totalRow = DATA.find(r => r.anomalia === 'hlptrue' && r.entity === entity && r.level === level && r.anio === anio);
-        const nacVal = totalRow ? (totalRow.nacimientos || 0).toLocaleString('es') : '—';
+        // Aggregate nacimientos across selected years
+        const hlpRows = DATA.filter(r => r.anomalia === 'hlptrue' && r.entity === entity && r.level === level && selectedYears.includes(r.anio));
+        const totalNac = hlpRows.reduce((s, r) => s + (r.nacimientos || 0), 0);
         document.getElementById('tabla-footnote').textContent =
-            `Nacimientos: ${nacVal}. Prevalencia por 10.000 (excepto Total AC: por 100). IC 95% Poisson exacto.`;
+            `Nacimientos${isMultiYear ? ' acumulados' : ''}: ${totalNac.toLocaleString('es')}. Prevalencia por 10.000 (excepto Total AC: por 100). IC 95% Poisson exacto.`;
 
         const thead = document.querySelector('#prevalencia-table thead');
         const tbody = document.querySelector('#prevalencia-table tbody');
         thead.innerHTML = `<tr><th style="min-width:260px">Anomalía</th><th class="num">Casos</th><th class="num">NV</th><th class="num">FM</th><th class="num">ILE</th><th class="num">NE</th><th class="num">Prev</th><th class="num">IC 95%</th></tr>`;
 
         function findRow(anom) {
-            return DATA.find(r => r.anomalia === anom && r.entity === entity && r.level === level && r.anio === anio);
+            const rows = DATA.filter(r => r.anomalia === anom && r.entity === entity && r.level === level && selectedYears.includes(r.anio));
+            if (!rows.length) return null;
+            if (rows.length === 1) return rows[0];
+            const casos_total = rows.reduce((s, r) => s + (r.casos_total || 0), 0);
+            const casos_nv    = rows.reduce((s, r) => s + (r.casos_nv    || 0), 0);
+            const casos_fm    = rows.reduce((s, r) => s + (r.casos_fm    || 0), 0);
+            const casos_ile   = rows.reduce((s, r) => s + (r.casos_ile   || 0), 0);
+            const casos_ne    = rows.reduce((s, r) => s + (r.casos_ne    || 0), 0);
+            const nacimientos = rows.reduce((s, r) => s + (r.nacimientos || 0), 0);
+            const factor = rows[0].factor || 10000;
+            const prev = nacimientos > 0 ? Math.round(casos_total / nacimientos * factor * 100) / 100 : null;
+            const ci = poissonCI(casos_total, nacimientos, factor);
+            return { casos_total, casos_nv, casos_fm, casos_ile, casos_ne, nacimientos, factor, prev, ic_inf: ci.inf, ic_sup: ci.sup };
         }
         function fmtRow(r) {
             if (!r) return '<td class="num">—</td>'.repeat(7);
@@ -392,7 +478,6 @@
         }
         levelSel.addEventListener('change', onLevelChange);
         document.getElementById('filter-barras-anomalia').addEventListener('change', updateBarras);
-        document.getElementById('filter-barras-anio').addEventListener('change', updateBarras);
         document.getElementById('filter-barras-prov').addEventListener('change', updateBarras);
         onLevelChange();
 
@@ -404,36 +489,55 @@
 
     function getBarrasData() {
         const anom = document.getElementById('filter-barras-anomalia').value;
-        const anio = parseInt(document.getElementById('filter-barras-anio').value);
+        const selectedYears = getSelectedCheckboxes('filter-hosp-barras-anios-container').map(Number);
         const level = document.getElementById('filter-barras-level').value;
 
-        let data = query({ anomalia: anom, anio, level });
+        let rows = DATA.filter(r => r.anomalia === anom && selectedYears.includes(r.anio) && r.level === level);
 
         if (level === 'hospital') {
             const prov = document.getElementById('filter-barras-prov').value;
             if (prov !== '__ALL__') {
                 const provHosps = new Set((HOSPS.por_provincia[prov] || []).map(h => h.id));
-                data = data.filter(d => provHosps.has(d.entity));
+                rows = rows.filter(d => provHosps.has(d.entity));
             }
         }
-        return data;
+        if (selectedYears.length <= 1) return rows;
+
+        // Aggregate across years per entity
+        const byEntity = {};
+        rows.forEach(r => {
+            if (!byEntity[r.entity]) byEntity[r.entity] = { casos: 0, nacimientos: 0, factor: r.factor || 10000, entity: r.entity, level: r.level, anomalia: r.anomalia };
+            byEntity[r.entity].casos      += r.casos_total || 0;
+            byEntity[r.entity].nacimientos += r.nacimientos || 0;
+        });
+        return Object.values(byEntity).map(e => {
+            const prev = e.nacimientos > 0 ? Math.round(e.casos / e.nacimientos * e.factor * 100) / 100 : null;
+            const ci = poissonCI(e.casos, e.nacimientos, e.factor);
+            return { ...e, casos_total: e.casos, prev, ic_inf: ci.inf, ic_sup: ci.sup };
+        });
     }
 
     function updateBarras() {
         const anom = document.getElementById('filter-barras-anomalia').value;
-        const anio = parseInt(document.getElementById('filter-barras-anio').value);
+        const selectedYears = getSelectedCheckboxes('filter-hosp-barras-anios-container').map(Number);
         const level = document.getElementById('filter-barras-level').value;
         const data = getBarrasData().filter(d => d.prev != null && d.prev !== '' && d.prev > 0)
             .sort((a, b) => (b.prev || 0) - (a.prev || 0));
 
-        // Get reference (country level)
-        const argRow = DATA.find(d => d.anomalia === anom && d.anio === anio && d.level === 'pais');
-        const argPrev = argRow ? argRow.prev : null;
+        // Argentina reference: aggregate across selected years
+        const argRows = DATA.filter(d => d.anomalia === anom && selectedYears.includes(d.anio) && d.level === 'pais');
+        let argPrev = null;
+        if (argRows.length) {
+            const argCasos = argRows.reduce((s, r) => s + (r.casos_total || 0), 0);
+            const argNac   = argRows.reduce((s, r) => s + (r.nacimientos || 0), 0);
+            const factor0  = argRows[0].factor || 10000;
+            argPrev = argNac > 0 ? Math.round(argCasos / argNac * factor0 * 100) / 100 : null;
+        }
         const factor = data.length > 0 ? data[0].factor : 10000;
         const fl = factor === 100 ? '×100' : '×10k';
-
+        const yearLabel = selectedYears.length === 1 ? selectedYears[0] : `${Math.min(...selectedYears)}–${Math.max(...selectedYears)}`;
         const levelLabel = level === 'hospital' ? 'hospitales' : 'provincias';
-        document.getElementById('barras-title').textContent = `${getLabel(anom)} — ${levelLabel} — ${anio}`;
+        document.getElementById('barras-title').textContent = `${getLabel(anom)} — ${levelLabel} — ${yearLabel}`;
         document.getElementById('barras-footnote').textContent =
             `Prevalencia ${fl} nac. Línea punteada: Argentina. IC 95% Poisson exacto.`;
 
