@@ -1,0 +1,2132 @@
+{
+  "hospitales": [
+    {
+      "id": "ALEMAN",
+      "nombre": "Htal. Alemán - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "ALENDE",
+      "nombre": "Htal. Materno Infantil \"Dr. Oscar Alende\" - LOMAS DE ZAMORA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ALVAREZ",
+      "nombre": "Htal. General de Agudos \"Dr. T. Álvarez\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "ANAGOITIA",
+      "nombre": "Htal. Ana Goitía - AVELLANEDA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ANCHORENA",
+      "nombre": "Sanatorio Anchorena - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "ANCHORENASMARTIN",
+      "nombre": "Sanatorio Anchorena - SAN MARTÍN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "APOSTOLES",
+      "nombre": "Htal. Allassia - MISIONES (ES EL QUE CORRESPONDE A APOSTOLES; ANTES DECIA STAFE Y ESTABA MAL)",
+      "prov": "MISIONES",
+      "prov_nombre": "Misiones"
+    },
+    {
+      "id": "ARGERICH",
+      "nombre": "Htal. Argerich - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "AZUL",
+      "nombre": "Htal. Materno Infantil Argentina Diego - AZUL",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "BALESTRINI",
+      "nombre": "Htal. Alberto Balestrini - LA MATANZA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "BARILOCHE",
+      "nombre": "Htal. Área Programa San Carlos de Bariloche \"Dr. Ramón Carrillo\" - BARILOCHE",
+      "prov": "RIONEGRO",
+      "prov_nombre": "Río Negro"
+    },
+    {
+      "id": "BBLANCA",
+      "nombre": "Htal. Interzonal General de Agudos \"Dr. José Penna\"- BAHÍA BLANCA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "BELASCUAIN",
+      "nombre": "Htal. Regional Concepción \"Dr. Miguel Belascuain\" - CHICLIGASTA",
+      "prov": "TUCUMAN",
+      "prov_nombre": "Tucumán"
+    },
+    {
+      "id": "BOCALANDRO",
+      "nombre": "Htal. Zonal General de Agudos “Dr. Carlos Bocalandro”- TRES DE FEBRERO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "BOLIVAR",
+      "nombre": "Htal. Municipal Subzonal Miguel Capredoni - BOLIVAR",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "BRAGADO",
+      "nombre": "Htal. Municipal San Luis de Bragado - BRAGADO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "BRITANICO",
+      "nombre": "Htal. Británico de Buenos Aires - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "CARRILLO",
+      "nombre": "Htal. Ramón Carrillo - CARRILLO",
+      "prov": "SANTIAGO",
+      "prov_nombre": "Santiago del Estero"
+    },
+    {
+      "id": "CEMEDA",
+      "nombre": "Clínica de Olavarría - OLAVARRIA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CEMIC",
+      "nombre": "CEMIC - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "CENTENARIO",
+      "nombre": "Htal. Provincial Centenario - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "CHASCOMUS",
+      "nombre": "Htal. San Vicente de Paul - CHASCOMÚS",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CHILECITO",
+      "nombre": "Htal. Eleazar Herrera Motta - CHILECITO",
+      "prov": "LARIOJA",
+      "prov_nombre": "La Rioja"
+    },
+    {
+      "id": "CHIVILCOY",
+      "nombre": "Htal. Municipal de Chivilcoy - CHIVILCOY",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CIUDADELA",
+      "nombre": "Htal. Dr. Ramón Carrillo - CIUDADELA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CLINICACARRA",
+      "nombre": "Clinica de especialidades Carra - SAN FRANCISCO",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "CLINICADELVALLE",
+      "nombre": "Clinica del Valle - COMODORO RIVADAVIA",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "CLINICAFATIMA",
+      "nombre": "Clínica Fátima - ESCOBAR",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CLINICAS",
+      "nombre": "Htal. de Clínicas José de San Martín - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "CLORINDA",
+      "nombre": "Hospital de Clorinda - FORMOSA",
+      "prov": "FORMOSA",
+      "prov_nombre": "Formosa"
+    },
+    {
+      "id": "CMLANUS",
+      "nombre": "Clinica Modelo de Lanús - LANÚS",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CMONTEGRANDE",
+      "nombre": "Clínica Privada de Monte Grande - MONTE GRANDE, ESTEBAN ECHEVERRIA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "COMODORO",
+      "nombre": "Htal. C. Rivadavia - COMODORO RIVADAVIA",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "COMPLSANLUIS",
+      "nombre": "Htal. Complejo Sanitario San Luis - SAN LUIS",
+      "prov": "SANLUIS",
+      "prov_nombre": "San Luis"
+    },
+    {
+      "id": "CRENDON",
+      "nombre": "Htal. Castro Rendon - NEUQUÉN",
+      "prov": "NEUQUEN",
+      "prov_nombre": "Neuquén"
+    },
+    {
+      "id": "CRUZDELEJE",
+      "nombre": "Htal. Aurelio Crespo - CRUZ DEL EJE",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "CUENCALTA",
+      "nombre": "Htal. Cuenca Alta Néstor Kirchner - CAÑUELAS",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "CULLEN",
+      "nombre": "Htal. J. M. Cullen - SANTA FE",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "DELAVEGA",
+      "nombre": "Htal. Mariano y L. De La Vega - MORENO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "DELESTE",
+      "nombre": "Htal. Del Este \"Eva Perón\" - S. M. DE TUCUMÁN",
+      "prov": "TUCUMAN",
+      "prov_nombre": "Tucumán"
+    },
+    {
+      "id": "DURAND",
+      "nombre": "Htal. General de Agudos \"Dr. G. Durand\"- CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "ELDORADO",
+      "nombre": "Htal. SAMIC de Eldorado - ELDORADO",
+      "prov": "MISIONES",
+      "prov_nombre": "Misiones"
+    },
+    {
+      "id": "EQUIZA",
+      "nombre": "Htal. Materno Infantil \"José Equiza\" - GONZALEZ CATÁN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ERILL",
+      "nombre": "Htal. Zonal \"Dr. Enrique Erill\" - ESCOBAR",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ESQUEL",
+      "nombre": "Htal. Zonal de Esquel - ESQUEL",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "EURNEKIAN",
+      "nombre": "Htal. Zonal General de Agudos \"Dr. Alberto Antranik Eurnekian\"- EZEIZA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "EVADUARTEDEPERON",
+      "nombre": "Htal. Materno \"Eva Duarte de Perón\"  - MALVINAS ARGENTINAS",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "EVITA",
+      "nombre": "Htal. Interzonal General de Agudos \"Evita\" - LANÚS",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "EVITAPUEBLO",
+      "nombre": "Htal. Zonal General Agudos Descentralizado \"Evita Pueblo\" - BERAZATEGUI",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "FAVALOROLAMATANZA",
+      "nombre": "Htal. Dr. René Favaloro - RAFAEL CASTILLO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "FERNANDEZ",
+      "nombre": "Htal. General de Agudos \"Dr. J. A. Fernández\"- CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "FORMENTI",
+      "nombre": "Htal. SAMIC \"Gobernador Cepernic - Presidente Kirchner\" - CALAFATE",
+      "prov": "SANTACRUZ",
+      "prov_nombre": "Santa Cruz"
+    },
+    {
+      "id": "FUNDAHOSP",
+      "nombre": "Fundación Hospitalaria - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "GANDULFO",
+      "nombre": "Htal. Interzonal General Agudos \"L.C. de Gandulfo\" - LOMAS DE ZAMORA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "GOBCENTENO",
+      "nombre": "Htal. Establecimiento Asistencial \"Gdor. Centeno\" - GENERAL PICO",
+      "prov": "LAPAMPA",
+      "prov_nombre": "La Pampa"
+    },
+    {
+      "id": "GOYA",
+      "nombre": "Htal. Regional Goya \"Prof. Dr. Camilo Muniagurria\" - GOYA",
+      "prov": "CORRIENTES",
+      "prov_nombre": "Corrientes"
+    },
+    {
+      "id": "GRALBELGRANO",
+      "nombre": "Htal. Municipal \"Juan de la Fuente\" -  GRALBELGRANO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "GRALPINEDO",
+      "nombre": "Htal. \"Isaac Waisman\"  - GRAL. PINEDO",
+      "prov": "CHACO",
+      "prov_nombre": "Chaco"
+    },
+    {
+      "id": "GUALEGUAYCHU",
+      "nombre": "Htal. Centenario - GUALEGUAYCHÚ",
+      "prov": "ENTRERIOS",
+      "prov_nombre": "Entre Ríos"
+    },
+    {
+      "id": "GUEMES",
+      "nombre": "Htal. Gral. Güemes - J.J. CASTELLI",
+      "prov": "CHACO",
+      "prov_nombre": "Chaco"
+    },
+    {
+      "id": "GUTIERREZ",
+      "nombre": "Htal. Zonal de Agudos \"Dr. Ricardo Gutiérrez\" - LA PLATA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "HCURA",
+      "nombre": "Htal. Municipal \"Dr. Héctor M. Cura\" - OLAVARRÍA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "HELLER",
+      "nombre": "Htal. \"Dr. Horacio Heller\" - NEUQUÉN",
+      "prov": "NEUQUEN",
+      "prov_nombre": "Neuquén"
+    },
+    {
+      "id": "HEROES",
+      "nombre": "Htal. Zonal General de Agudos “Héroes de Malvinas” - MERLO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "HVIAMONTE",
+      "nombre": "Htal. Municipal Gral. Viamonte - JUNIN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "IMDELSUR",
+      "nombre": "Instituto Médico del Sur",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "IRIARTE",
+      "nombre": "Htal. Zonal General de Agudos “Dr. Isidoro Iriarte” - QUILMES",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ITALIANO",
+      "nombre": "Htal. Italiano de Buenos Aires - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "ITALIANOBB",
+      "nombre": "Htal. Italiano Regional del Sur - BAHÍA BLANCA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ITALIANOSJUSTO",
+      "nombre": "Htal. Italiano de San Justo - SAN JUSTO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ITURRASPE",
+      "nombre": "Htal. Iturraspe - SANTA FE",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "JFERRE",
+      "nombre": "Htal. SAMCO \"Dr. Jaime Ferre\" - RAFAELA",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "JUNIN",
+      "nombre": "Htal. Zonal General Agudos \"Abraham Piñeyro\" - JUNÍN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "LABANDA",
+      "nombre": "Maternidad Dr. Faustino Herrera - LA BANDA",
+      "prov": "SANTIAGO",
+      "prov_nombre": "Santiago del Estero"
+    },
+    {
+      "id": "LAGOMAGGIORE",
+      "nombre": "Htal. \"Luis C. Lagomaggiore\" - MENDOZA",
+      "prov": "MENDOZA",
+      "prov_nombre": "Mendoza"
+    },
+    {
+      "id": "LAQUIACA",
+      "nombre": "Htal. \"Dr. Jorge Uro\" - LA QUIACA",
+      "prov": "JUJUY",
+      "prov_nombre": "Jujuy"
+    },
+    {
+      "id": "LARCADE",
+      "nombre": "Htal. Larcade - SAN MIGUEL",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "LINCOLN",
+      "nombre": "Htal. Municipal \"Dr. Rubén O. Miravalle\" - LINCOLN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "LLANO",
+      "nombre": "Htal. Ángela Iglesias del Llano - CORRIENTES",
+      "prov": "CORRIENTES",
+      "prov_nombre": "Corrientes"
+    },
+    {
+      "id": "LRCADE",
+      "nombre": "Htal. Raúl Larcade - BUENOS AIRES",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "MADARIAGA",
+      "nombre": "Htal. Materno Neonatal \"Ramón Madariaga\" - POSADAS",
+      "prov": "MISIONES",
+      "prov_nombre": "Misiones"
+    },
+    {
+      "id": "MALARGUE",
+      "nombre": "Htal. Regional Malargue- MALARGUE",
+      "prov": "MENDOZA",
+      "prov_nombre": "Mendoza"
+    },
+    {
+      "id": "MARTIN",
+      "nombre": "Htal. Mat. Martín - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "MASVERNAT",
+      "nombre": "Htal. Delicia Concepcion Masvernat - CONCORDIA",
+      "prov": "ENTRERIOS",
+      "prov_nombre": "Entre Ríos"
+    },
+    {
+      "id": "MATDECARLOTTO",
+      "nombre": "Maternidad Estela de Carlotto - MORENO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "MATERDEI",
+      "nombre": "Sanatorio Mater Dei - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "MATMARDEAJO",
+      "nombre": "Maternidad de Mar de Ajó - MATMARDEAJÓ",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "MATNACCORDOBA",
+      "nombre": "Htal. Maternidad Nacional - CÓRDOBA",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "MATNEOCORDOBA",
+      "nombre": "Htal. Materno Neonatal - CÓRDOBA",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "MATPROVCORDOBA",
+      "nombre": "Htal. Nueva Maternidad Provincial - CÓRDOBA",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "MATTIGRE",
+      "nombre": "Htal. Materno Infantil Dr. Florencio Escardó - TIGRE",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "MELENDEZ",
+      "nombre": "Htal. Zonal General de Agudos \"Dr. Lucio Meléndez\" - ADROGUÉ",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "MILAGRO",
+      "nombre": "Htal. Público Materno Infantil - SALTA",
+      "prov": "SALTA",
+      "prov_nombre": "Salta"
+    },
+    {
+      "id": "MIPUEBLO",
+      "nombre": "Htal. Zonal General de Agudos “Mi Pueblo” - FLORENCIO VARELA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "MYNINO",
+      "nombre": "Htal. Madre y Niño - FORMOSA",
+      "prov": "FORMOSA",
+      "prov_nombre": "Formosa"
+    },
+    {
+      "id": "MZAPAROISSIEN",
+      "nombre": "Htal. D. Paroissien - MAIPÚ",
+      "prov": "MENDOZA",
+      "prov_nombre": "Mendoza"
+    },
+    {
+      "id": "NAVELLANEDA",
+      "nombre": "Htal. Nicolás Avellaneda - S. M. DE TUCUMÁN",
+      "prov": "TUCUMAN",
+      "prov_nombre": "Tucumán"
+    },
+    {
+      "id": "NECOCHEA",
+      "nombre": "Htal. Municipal \"Dr. Emilio Ferreyra\" - NECOCHEA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ONATIVIA",
+      "nombre": "Htal. Zonal General de Agudos \"Dr. Arturo Oñativia\" - RAFAEL CALZADA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "ORAN",
+      "nombre": "Htal. S. Vicent Paul - S. RAMÓN DE ORÁN",
+      "prov": "SALTA",
+      "prov_nombre": "Salta"
+    },
+    {
+      "id": "ORIAS",
+      "nombre": "Htal. \"Dr. Oscar Orias\"- LIBERTADOR GENERAL SAN MARTÍN",
+      "prov": "JUJUY",
+      "prov_nombre": "Jujuy"
+    },
+    {
+      "id": "ORONO",
+      "nombre": "Maternidad Oroño - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "OTAMENDI",
+      "nombre": "Sanatorio Otamendi - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "PACHECO",
+      "nombre": "Htal. Zonal General Agudos \"M. V. Martínez\" - PACHECO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "PENNA",
+      "nombre": "Htal. General de Agudos \"J. A. Penna\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "PERGAMINO",
+      "nombre": "Htal. San José - PERGAMINO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "PERON",
+      "nombre": "Htal. Interzonal General Agudos \"Presidente Perón\" - AVELLANEDA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "PERRANDO",
+      "nombre": "Htal. J. Perrando - RESISTENCIA",
+      "prov": "CHACO",
+      "prov_nombre": "Chaco"
+    },
+    {
+      "id": "PERRUPATO",
+      "nombre": "Htal. Regional Alfredo \"I. Perrupato\" - SAN MARTÍN",
+      "prov": "MENDOZA",
+      "prov_nombre": "Mendoza"
+    },
+    {
+      "id": "PINERO",
+      "nombre": "Htal. General de Agudos \"P. Piñero\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "PIROVANO",
+      "nombre": "Htal. General de Agudos \"Dr. I. Pirovano\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "POSADAS",
+      "nombre": "Htal. Nacional \"Prof. Dr. A. Posadas\" - HAEDO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "PRIVACOR",
+      "nombre": "Htal. Privado de Córdoba - CÓRDOBA",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "PROVROSARIO",
+      "nombre": "Htal. Provincial de Rosario - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "PTOMADRYN",
+      "nombre": "Htal. Andrés Isola - PUERTO MADRYN",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "QUINTANA",
+      "nombre": "Htal. Materno Infantil \"Dr. Héctor Quintana\" - SAN SALVADOR DE JUJUY",
+      "prov": "JUJUY",
+      "prov_nombre": "Jujuy"
+    },
+    {
+      "id": "RAMOS",
+      "nombre": "Htal. General de Agudos \"J. M. Ramos Mejía\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "RAWSON",
+      "nombre": "Htal. \"Dr. Guillermo Rawson\" - SAN JUAN",
+      "prov": "SANJUAN",
+      "prov_nombre": "San Juan"
+    },
+    {
+      "id": "RAWSONCHUBUT",
+      "nombre": "Htal. Subzonal Santa Teresita - RAWSON",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "RECONQUISTA",
+      "nombre": "Htal. Central de Reconquista \"Dra. Olga Stucky de Rizzi\" - RECONQUISTA",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "RIOCUARTO",
+      "nombre": "Htal. Central Río Cuarto \"San Antonio de Padua\" - RÍO CUARTO",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "RIOGALLEGOS",
+      "nombre": "Htal. Regional de Río Gallegos - RÍO GALLEGOS",
+      "prov": "SANTACRUZ",
+      "prov_nombre": "Santa Cruz"
+    },
+    {
+      "id": "RIOGRANDE",
+      "nombre": "Htal. Regional Nuestra Señora de La Candelaria - RIO GRANDE",
+      "prov": "TIERRADELFUEGO",
+      "prov_nombre": "Tierra del Fuego"
+    },
+    {
+      "id": "RIVADAVIA",
+      "nombre": "Htal. General de Agudos \"Bernardino Rivadavia\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "RSAENZPENA",
+      "nombre": "Htal. Roque Sáenz Peña - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "SANATORIODELAMUJER",
+      "nombre": "Maternidad Sanatorio de la Mujer - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "SANATORIOIPAM",
+      "nombre": "Sanatorio IPAM - SANTA FE",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "SANATORIOLOSARCOS",
+      "nombre": "Sanatorio Los Arcos - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "SANATORIOSANCARLOS",
+      "nombre": "Sanatorio San Carlos de Bariloche - BARILOCHE",
+      "prov": "RIONEGRO",
+      "prov_nombre": "Río Negro"
+    },
+    {
+      "id": "SANFELIPE",
+      "nombre": "Htal. Zonal General Agudos \"San Felipe\" - SAN NICOLÁS",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANFRANCISCO",
+      "nombre": "Htal. Regional \"J. B. Iturraspe\" - SAN FRANCISCO",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "SANISIDRO",
+      "nombre": "Htal. Materno Infantil de San Isidro \"Carlos Gianantonio\" - SAN ISIDRO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANJUANDEDIOS",
+      "nombre": "Htal. San Juan de Dios - RAMOS MEJÍA, LA MATANZA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANMARTIN",
+      "nombre": "Htal. Interzonal General de Agudos \"General San Martín\" - LA PLATA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANMARTINDELOSANDES",
+      "nombre": "Htal. Zonal San Martin de Los Andes \"Dr. Ramón Carrillo\" - SAN MARTÍN DE LOS ANDES",
+      "prov": "NEUQUEN",
+      "prov_nombre": "Neuquén"
+    },
+    {
+      "id": "SANROQUE",
+      "nombre": "Htal. Zonal General de Agudos \"San Roque\" - LA PLATA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANTAMARINA",
+      "nombre": "Htal. S. Terrero de Santamarina - E. ECHEVERRÍA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANTAROSA",
+      "nombre": "Htal. Mat. Santa Rosa - VICENTE LOPEZ",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SANTOJANNI",
+      "nombre": "Htal. General de Agudos \"Donación F. Santojanni\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "SANTORIOLOSARCOS",
+      "nombre": "Sanatorio Los Arcos - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "SANVICENTE",
+      "nombre": "Hospital Público de San Vicente",
+      "prov": "MISIONES",
+      "prov_nombre": "Misiones"
+    },
+    {
+      "id": "SARDA",
+      "nombre": "Htal. Materno Infantil \"Ramón Sardá\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "SJBAUTISTA",
+      "nombre": "Mat. 25 de Mayo - S. F. DEL V. DE CATAMARCA",
+      "prov": "CATAMARCA",
+      "prov_nombre": "Catamarca"
+    },
+    {
+      "id": "SJUNCAL",
+      "nombre": "Sanatorio Juncal - TEMPERLEY",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SJUNIN",
+      "nombre": "Sanatorio Junín - JUNÍN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "SRAMERCEDES",
+      "nombre": "Inst. de Maternidad y Ginecología Nuestra Señora de Las Mercedes- S. M. DE TUCUMÁN",
+      "prov": "TUCUMAN",
+      "prov_nombre": "Tucumán"
+    },
+    {
+      "id": "SROQUEPARANA",
+      "nombre": "Htal. Materno Infantil \"San Roque\" - PARANÁ",
+      "prov": "ENTRERIOS",
+      "prov_nombre": "Entre Ríos"
+    },
+    {
+      "id": "STAFEEVAPERON",
+      "nombre": "Htal. Eva Perón - ROSARIO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "SUIZO",
+      "nombre": "Maternidad Suizo Argentina - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "TANDIL",
+      "nombre": "Htal. Ramón Santamarina - TANDIL",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "TARTAGAL",
+      "nombre": "Htal. Juan Domingo Perón - TARTAGAL",
+      "prov": "SALTA",
+      "prov_nombre": "Salta"
+    },
+    {
+      "id": "TETAMANTI",
+      "nombre": "Htal. Interzonal Especializado Materno Infantil \"Dr. V. Tetamanti\" - MAR DEL PLATA",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "THOMPSON",
+      "nombre": "Htal. Municipal \"Diego Thompson\" - SAN MARTÍN",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "TRELEW",
+      "nombre": "Htal. Zonal Trelew Centro Materno Infantil - TRELEW",
+      "prov": "CHUBUT",
+      "prov_nombre": "Chubut"
+    },
+    {
+      "id": "TRINIDADSANISIDRO",
+      "nombre": "Sanatorio de la Trinidad - SAN ISIDRO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "URQUIZA",
+      "nombre": "Htal. J. J. de Urquiza - CONCEPCIÓN DEL URUGUAY",
+      "prov": "ENTRERIOS",
+      "prov_nombre": "Entre Ríos"
+    },
+    {
+      "id": "USHUAIA",
+      "nombre": "Htal. Regional Ushuaia \"Gobernador Ernesto M. Campos\" - USHUAIA",
+      "prov": "TIERRADELFUEGO",
+      "prov_nombre": "Tierra del Fuego"
+    },
+    {
+      "id": "VBARROS",
+      "nombre": "Htal. de la Madre y el Niño (ex Vera Barros) - LA RIOJA",
+      "prov": "LARIOJA",
+      "prov_nombre": "La Rioja"
+    },
+    {
+      "id": "VDELCARMEN",
+      "nombre": "Htal. Zonal General de Agudos Virgen del Cármen - ZÁRATE",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "VELEZ",
+      "nombre": "Htal. General de Agudos \"D. Vélez Sarsfield\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
+      "id": "VIDAL",
+      "nombre": "Htal. \"José Ramón Vidal\" - CORRIENTES",
+      "prov": "CORRIENTES",
+      "prov_nombre": "Corrientes"
+    },
+    {
+      "id": "VILLACONSTITUCION",
+      "nombre": "Htal. SAMCO \"Dr. Juan E. Milich\" - VILLA CONSTITUCIÓN",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "VILLAMARIA",
+      "nombre": "Htal. Regional \"Luis Pasteur\" - VILLA MARÍA",
+      "prov": "CORDOBA",
+      "prov_nombre": "Córdoba"
+    },
+    {
+      "id": "VMERCEDES",
+      "nombre": "Policlinica Regional Juan Domingo Perón - VILLA MERCEDES",
+      "prov": "SANLUIS",
+      "prov_nombre": "San Luis"
+    },
+    {
+      "id": "VTUERTO",
+      "nombre": "Htal. Alejandro Gutiérrez - VENADO TUERTO",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    }
+  ],
+  "por_provincia": {
+    "BUENOSAIRES": [
+      {
+        "id": "CMLANUS",
+        "nombre": "Clinica Modelo de Lanús - LANÚS",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CLINICAFATIMA",
+        "nombre": "Clínica Fátima - ESCOBAR",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CMONTEGRANDE",
+        "nombre": "Clínica Privada de Monte Grande - MONTE GRANDE, ESTEBAN ECHEVERRIA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CEMEDA",
+        "nombre": "Clínica de Olavarría - OLAVARRIA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "BALESTRINI",
+        "nombre": "Htal. Alberto Balestrini - LA MATANZA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ANAGOITIA",
+        "nombre": "Htal. Ana Goitía - AVELLANEDA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CUENCALTA",
+        "nombre": "Htal. Cuenca Alta Néstor Kirchner - CAÑUELAS",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CIUDADELA",
+        "nombre": "Htal. Dr. Ramón Carrillo - CIUDADELA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "FAVALOROLAMATANZA",
+        "nombre": "Htal. Dr. René Favaloro - RAFAEL CASTILLO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "TETAMANTI",
+        "nombre": "Htal. Interzonal Especializado Materno Infantil \"Dr. V. Tetamanti\" - MAR DEL PLATA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "GANDULFO",
+        "nombre": "Htal. Interzonal General Agudos \"L.C. de Gandulfo\" - LOMAS DE ZAMORA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "PERON",
+        "nombre": "Htal. Interzonal General Agudos \"Presidente Perón\" - AVELLANEDA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "BBLANCA",
+        "nombre": "Htal. Interzonal General de Agudos \"Dr. José Penna\"- BAHÍA BLANCA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "EVITA",
+        "nombre": "Htal. Interzonal General de Agudos \"Evita\" - LANÚS",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANMARTIN",
+        "nombre": "Htal. Interzonal General de Agudos \"General San Martín\" - LA PLATA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ITALIANOBB",
+        "nombre": "Htal. Italiano Regional del Sur - BAHÍA BLANCA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ITALIANOSJUSTO",
+        "nombre": "Htal. Italiano de San Justo - SAN JUSTO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "LARCADE",
+        "nombre": "Htal. Larcade - SAN MIGUEL",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "DELAVEGA",
+        "nombre": "Htal. Mariano y L. De La Vega - MORENO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANTAROSA",
+        "nombre": "Htal. Mat. Santa Rosa - VICENTE LOPEZ",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "EVADUARTEDEPERON",
+        "nombre": "Htal. Materno \"Eva Duarte de Perón\"  - MALVINAS ARGENTINAS",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ALENDE",
+        "nombre": "Htal. Materno Infantil \"Dr. Oscar Alende\" - LOMAS DE ZAMORA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "EQUIZA",
+        "nombre": "Htal. Materno Infantil \"José Equiza\" - GONZALEZ CATÁN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "AZUL",
+        "nombre": "Htal. Materno Infantil Argentina Diego - AZUL",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "MATTIGRE",
+        "nombre": "Htal. Materno Infantil Dr. Florencio Escardó - TIGRE",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANISIDRO",
+        "nombre": "Htal. Materno Infantil de San Isidro \"Carlos Gianantonio\" - SAN ISIDRO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "THOMPSON",
+        "nombre": "Htal. Municipal \"Diego Thompson\" - SAN MARTÍN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "NECOCHEA",
+        "nombre": "Htal. Municipal \"Dr. Emilio Ferreyra\" - NECOCHEA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "HCURA",
+        "nombre": "Htal. Municipal \"Dr. Héctor M. Cura\" - OLAVARRÍA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "LINCOLN",
+        "nombre": "Htal. Municipal \"Dr. Rubén O. Miravalle\" - LINCOLN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "GRALBELGRANO",
+        "nombre": "Htal. Municipal \"Juan de la Fuente\" -  GRALBELGRANO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "HVIAMONTE",
+        "nombre": "Htal. Municipal Gral. Viamonte - JUNIN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "BRAGADO",
+        "nombre": "Htal. Municipal San Luis de Bragado - BRAGADO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "BOLIVAR",
+        "nombre": "Htal. Municipal Subzonal Miguel Capredoni - BOLIVAR",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CHIVILCOY",
+        "nombre": "Htal. Municipal de Chivilcoy - CHIVILCOY",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "POSADAS",
+        "nombre": "Htal. Nacional \"Prof. Dr. A. Posadas\" - HAEDO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "TANDIL",
+        "nombre": "Htal. Ramón Santamarina - TANDIL",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "LRCADE",
+        "nombre": "Htal. Raúl Larcade - BUENOS AIRES",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANTAMARINA",
+        "nombre": "Htal. S. Terrero de Santamarina - E. ECHEVERRÍA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "PERGAMINO",
+        "nombre": "Htal. San José - PERGAMINO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANJUANDEDIOS",
+        "nombre": "Htal. San Juan de Dios - RAMOS MEJÍA, LA MATANZA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CHASCOMUS",
+        "nombre": "Htal. San Vicente de Paul - CHASCOMÚS",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ERILL",
+        "nombre": "Htal. Zonal \"Dr. Enrique Erill\" - ESCOBAR",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "JUNIN",
+        "nombre": "Htal. Zonal General Agudos \"Abraham Piñeyro\" - JUNÍN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "PACHECO",
+        "nombre": "Htal. Zonal General Agudos \"M. V. Martínez\" - PACHECO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANFELIPE",
+        "nombre": "Htal. Zonal General Agudos \"San Felipe\" - SAN NICOLÁS",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "EVITAPUEBLO",
+        "nombre": "Htal. Zonal General Agudos Descentralizado \"Evita Pueblo\" - BERAZATEGUI",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "EURNEKIAN",
+        "nombre": "Htal. Zonal General de Agudos \"Dr. Alberto Antranik Eurnekian\"- EZEIZA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ONATIVIA",
+        "nombre": "Htal. Zonal General de Agudos \"Dr. Arturo Oñativia\" - RAFAEL CALZADA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "MELENDEZ",
+        "nombre": "Htal. Zonal General de Agudos \"Dr. Lucio Meléndez\" - ADROGUÉ",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SANROQUE",
+        "nombre": "Htal. Zonal General de Agudos \"San Roque\" - LA PLATA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "VDELCARMEN",
+        "nombre": "Htal. Zonal General de Agudos Virgen del Cármen - ZÁRATE",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "BOCALANDRO",
+        "nombre": "Htal. Zonal General de Agudos “Dr. Carlos Bocalandro”- TRES DE FEBRERO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "IRIARTE",
+        "nombre": "Htal. Zonal General de Agudos “Dr. Isidoro Iriarte” - QUILMES",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "HEROES",
+        "nombre": "Htal. Zonal General de Agudos “Héroes de Malvinas” - MERLO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "MIPUEBLO",
+        "nombre": "Htal. Zonal General de Agudos “Mi Pueblo” - FLORENCIO VARELA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "GUTIERREZ",
+        "nombre": "Htal. Zonal de Agudos \"Dr. Ricardo Gutiérrez\" - LA PLATA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "MATDECARLOTTO",
+        "nombre": "Maternidad Estela de Carlotto - MORENO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "MATMARDEAJO",
+        "nombre": "Maternidad de Mar de Ajó - MATMARDEAJÓ",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "ANCHORENASMARTIN",
+        "nombre": "Sanatorio Anchorena - SAN MARTÍN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SJUNCAL",
+        "nombre": "Sanatorio Juncal - TEMPERLEY",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "SJUNIN",
+        "nombre": "Sanatorio Junín - JUNÍN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "TRINIDADSANISIDRO",
+        "nombre": "Sanatorio de la Trinidad - SAN ISIDRO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      }
+    ],
+    "CABA": [
+      {
+        "id": "CEMIC",
+        "nombre": "CEMIC - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "FUNDAHOSP",
+        "nombre": "Fundación Hospitalaria - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "ALEMAN",
+        "nombre": "Htal. Alemán - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "ARGERICH",
+        "nombre": "Htal. Argerich - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "BRITANICO",
+        "nombre": "Htal. Británico de Buenos Aires - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "RIVADAVIA",
+        "nombre": "Htal. General de Agudos \"Bernardino Rivadavia\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "VELEZ",
+        "nombre": "Htal. General de Agudos \"D. Vélez Sarsfield\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "SANTOJANNI",
+        "nombre": "Htal. General de Agudos \"Donación F. Santojanni\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "DURAND",
+        "nombre": "Htal. General de Agudos \"Dr. G. Durand\"- CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "PIROVANO",
+        "nombre": "Htal. General de Agudos \"Dr. I. Pirovano\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "FERNANDEZ",
+        "nombre": "Htal. General de Agudos \"Dr. J. A. Fernández\"- CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "ALVAREZ",
+        "nombre": "Htal. General de Agudos \"Dr. T. Álvarez\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "PENNA",
+        "nombre": "Htal. General de Agudos \"J. A. Penna\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "RAMOS",
+        "nombre": "Htal. General de Agudos \"J. M. Ramos Mejía\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "PINERO",
+        "nombre": "Htal. General de Agudos \"P. Piñero\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "ITALIANO",
+        "nombre": "Htal. Italiano de Buenos Aires - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "SARDA",
+        "nombre": "Htal. Materno Infantil \"Ramón Sardá\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "CLINICAS",
+        "nombre": "Htal. de Clínicas José de San Martín - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "SUIZO",
+        "nombre": "Maternidad Suizo Argentina - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "ANCHORENA",
+        "nombre": "Sanatorio Anchorena - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "SANATORIOLOSARCOS",
+        "nombre": "Sanatorio Los Arcos - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "SANTORIOLOSARCOS",
+        "nombre": "Sanatorio Los Arcos - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "MATERDEI",
+        "nombre": "Sanatorio Mater Dei - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
+        "id": "OTAMENDI",
+        "nombre": "Sanatorio Otamendi - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      }
+    ],
+    "CATAMARCA": [
+      {
+        "id": "SJBAUTISTA",
+        "nombre": "Mat. 25 de Mayo - S. F. DEL V. DE CATAMARCA",
+        "prov": "CATAMARCA",
+        "prov_nombre": "Catamarca"
+      }
+    ],
+    "CHACO": [
+      {
+        "id": "GRALPINEDO",
+        "nombre": "Htal. \"Isaac Waisman\"  - GRAL. PINEDO",
+        "prov": "CHACO",
+        "prov_nombre": "Chaco"
+      },
+      {
+        "id": "GUEMES",
+        "nombre": "Htal. Gral. Güemes - J.J. CASTELLI",
+        "prov": "CHACO",
+        "prov_nombre": "Chaco"
+      },
+      {
+        "id": "PERRANDO",
+        "nombre": "Htal. J. Perrando - RESISTENCIA",
+        "prov": "CHACO",
+        "prov_nombre": "Chaco"
+      }
+    ],
+    "CHUBUT": [
+      {
+        "id": "CLINICADELVALLE",
+        "nombre": "Clinica del Valle - COMODORO RIVADAVIA",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
+        "id": "PTOMADRYN",
+        "nombre": "Htal. Andrés Isola - PUERTO MADRYN",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
+        "id": "COMODORO",
+        "nombre": "Htal. C. Rivadavia - COMODORO RIVADAVIA",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
+        "id": "RAWSONCHUBUT",
+        "nombre": "Htal. Subzonal Santa Teresita - RAWSON",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
+        "id": "TRELEW",
+        "nombre": "Htal. Zonal Trelew Centro Materno Infantil - TRELEW",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
+        "id": "ESQUEL",
+        "nombre": "Htal. Zonal de Esquel - ESQUEL",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
+        "id": "IMDELSUR",
+        "nombre": "Instituto Médico del Sur",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      }
+    ],
+    "CORDOBA": [
+      {
+        "id": "CLINICACARRA",
+        "nombre": "Clinica de especialidades Carra - SAN FRANCISCO",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "CRUZDELEJE",
+        "nombre": "Htal. Aurelio Crespo - CRUZ DEL EJE",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "RIOCUARTO",
+        "nombre": "Htal. Central Río Cuarto \"San Antonio de Padua\" - RÍO CUARTO",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "MATNACCORDOBA",
+        "nombre": "Htal. Maternidad Nacional - CÓRDOBA",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "MATNEOCORDOBA",
+        "nombre": "Htal. Materno Neonatal - CÓRDOBA",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "MATPROVCORDOBA",
+        "nombre": "Htal. Nueva Maternidad Provincial - CÓRDOBA",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "PRIVACOR",
+        "nombre": "Htal. Privado de Córdoba - CÓRDOBA",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "SANFRANCISCO",
+        "nombre": "Htal. Regional \"J. B. Iturraspe\" - SAN FRANCISCO",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "VILLAMARIA",
+        "nombre": "Htal. Regional \"Luis Pasteur\" - VILLA MARÍA",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      }
+    ],
+    "CORRIENTES": [
+      {
+        "id": "VIDAL",
+        "nombre": "Htal. \"José Ramón Vidal\" - CORRIENTES",
+        "prov": "CORRIENTES",
+        "prov_nombre": "Corrientes"
+      },
+      {
+        "id": "GOYA",
+        "nombre": "Htal. Regional Goya \"Prof. Dr. Camilo Muniagurria\" - GOYA",
+        "prov": "CORRIENTES",
+        "prov_nombre": "Corrientes"
+      },
+      {
+        "id": "LLANO",
+        "nombre": "Htal. Ángela Iglesias del Llano - CORRIENTES",
+        "prov": "CORRIENTES",
+        "prov_nombre": "Corrientes"
+      }
+    ],
+    "ENTRERIOS": [
+      {
+        "id": "GUALEGUAYCHU",
+        "nombre": "Htal. Centenario - GUALEGUAYCHÚ",
+        "prov": "ENTRERIOS",
+        "prov_nombre": "Entre Ríos"
+      },
+      {
+        "id": "MASVERNAT",
+        "nombre": "Htal. Delicia Concepcion Masvernat - CONCORDIA",
+        "prov": "ENTRERIOS",
+        "prov_nombre": "Entre Ríos"
+      },
+      {
+        "id": "URQUIZA",
+        "nombre": "Htal. J. J. de Urquiza - CONCEPCIÓN DEL URUGUAY",
+        "prov": "ENTRERIOS",
+        "prov_nombre": "Entre Ríos"
+      },
+      {
+        "id": "SROQUEPARANA",
+        "nombre": "Htal. Materno Infantil \"San Roque\" - PARANÁ",
+        "prov": "ENTRERIOS",
+        "prov_nombre": "Entre Ríos"
+      }
+    ],
+    "FORMOSA": [
+      {
+        "id": "CLORINDA",
+        "nombre": "Hospital de Clorinda - FORMOSA",
+        "prov": "FORMOSA",
+        "prov_nombre": "Formosa"
+      },
+      {
+        "id": "MYNINO",
+        "nombre": "Htal. Madre y Niño - FORMOSA",
+        "prov": "FORMOSA",
+        "prov_nombre": "Formosa"
+      }
+    ],
+    "JUJUY": [
+      {
+        "id": "LAQUIACA",
+        "nombre": "Htal. \"Dr. Jorge Uro\" - LA QUIACA",
+        "prov": "JUJUY",
+        "prov_nombre": "Jujuy"
+      },
+      {
+        "id": "ORIAS",
+        "nombre": "Htal. \"Dr. Oscar Orias\"- LIBERTADOR GENERAL SAN MARTÍN",
+        "prov": "JUJUY",
+        "prov_nombre": "Jujuy"
+      },
+      {
+        "id": "QUINTANA",
+        "nombre": "Htal. Materno Infantil \"Dr. Héctor Quintana\" - SAN SALVADOR DE JUJUY",
+        "prov": "JUJUY",
+        "prov_nombre": "Jujuy"
+      }
+    ],
+    "LAPAMPA": [
+      {
+        "id": "GOBCENTENO",
+        "nombre": "Htal. Establecimiento Asistencial \"Gdor. Centeno\" - GENERAL PICO",
+        "prov": "LAPAMPA",
+        "prov_nombre": "La Pampa"
+      }
+    ],
+    "LARIOJA": [
+      {
+        "id": "CHILECITO",
+        "nombre": "Htal. Eleazar Herrera Motta - CHILECITO",
+        "prov": "LARIOJA",
+        "prov_nombre": "La Rioja"
+      },
+      {
+        "id": "VBARROS",
+        "nombre": "Htal. de la Madre y el Niño (ex Vera Barros) - LA RIOJA",
+        "prov": "LARIOJA",
+        "prov_nombre": "La Rioja"
+      }
+    ],
+    "MENDOZA": [
+      {
+        "id": "LAGOMAGGIORE",
+        "nombre": "Htal. \"Luis C. Lagomaggiore\" - MENDOZA",
+        "prov": "MENDOZA",
+        "prov_nombre": "Mendoza"
+      },
+      {
+        "id": "MZAPAROISSIEN",
+        "nombre": "Htal. D. Paroissien - MAIPÚ",
+        "prov": "MENDOZA",
+        "prov_nombre": "Mendoza"
+      },
+      {
+        "id": "PERRUPATO",
+        "nombre": "Htal. Regional Alfredo \"I. Perrupato\" - SAN MARTÍN",
+        "prov": "MENDOZA",
+        "prov_nombre": "Mendoza"
+      },
+      {
+        "id": "MALARGUE",
+        "nombre": "Htal. Regional Malargue- MALARGUE",
+        "prov": "MENDOZA",
+        "prov_nombre": "Mendoza"
+      }
+    ],
+    "MISIONES": [
+      {
+        "id": "SANVICENTE",
+        "nombre": "Hospital Público de San Vicente",
+        "prov": "MISIONES",
+        "prov_nombre": "Misiones"
+      },
+      {
+        "id": "APOSTOLES",
+        "nombre": "Htal. Allassia - MISIONES (ES EL QUE CORRESPONDE A APOSTOLES; ANTES DECIA STAFE Y ESTABA MAL)",
+        "prov": "MISIONES",
+        "prov_nombre": "Misiones"
+      },
+      {
+        "id": "MADARIAGA",
+        "nombre": "Htal. Materno Neonatal \"Ramón Madariaga\" - POSADAS",
+        "prov": "MISIONES",
+        "prov_nombre": "Misiones"
+      },
+      {
+        "id": "ELDORADO",
+        "nombre": "Htal. SAMIC de Eldorado - ELDORADO",
+        "prov": "MISIONES",
+        "prov_nombre": "Misiones"
+      }
+    ],
+    "NEUQUEN": [
+      {
+        "id": "HELLER",
+        "nombre": "Htal. \"Dr. Horacio Heller\" - NEUQUÉN",
+        "prov": "NEUQUEN",
+        "prov_nombre": "Neuquén"
+      },
+      {
+        "id": "CRENDON",
+        "nombre": "Htal. Castro Rendon - NEUQUÉN",
+        "prov": "NEUQUEN",
+        "prov_nombre": "Neuquén"
+      },
+      {
+        "id": "SANMARTINDELOSANDES",
+        "nombre": "Htal. Zonal San Martin de Los Andes \"Dr. Ramón Carrillo\" - SAN MARTÍN DE LOS ANDES",
+        "prov": "NEUQUEN",
+        "prov_nombre": "Neuquén"
+      }
+    ],
+    "RIONEGRO": [
+      {
+        "id": "BARILOCHE",
+        "nombre": "Htal. Área Programa San Carlos de Bariloche \"Dr. Ramón Carrillo\" - BARILOCHE",
+        "prov": "RIONEGRO",
+        "prov_nombre": "Río Negro"
+      },
+      {
+        "id": "SANATORIOSANCARLOS",
+        "nombre": "Sanatorio San Carlos de Bariloche - BARILOCHE",
+        "prov": "RIONEGRO",
+        "prov_nombre": "Río Negro"
+      }
+    ],
+    "SALTA": [
+      {
+        "id": "TARTAGAL",
+        "nombre": "Htal. Juan Domingo Perón - TARTAGAL",
+        "prov": "SALTA",
+        "prov_nombre": "Salta"
+      },
+      {
+        "id": "MILAGRO",
+        "nombre": "Htal. Público Materno Infantil - SALTA",
+        "prov": "SALTA",
+        "prov_nombre": "Salta"
+      },
+      {
+        "id": "ORAN",
+        "nombre": "Htal. S. Vicent Paul - S. RAMÓN DE ORÁN",
+        "prov": "SALTA",
+        "prov_nombre": "Salta"
+      }
+    ],
+    "SANJUAN": [
+      {
+        "id": "RAWSON",
+        "nombre": "Htal. \"Dr. Guillermo Rawson\" - SAN JUAN",
+        "prov": "SANJUAN",
+        "prov_nombre": "San Juan"
+      }
+    ],
+    "SANLUIS": [
+      {
+        "id": "COMPLSANLUIS",
+        "nombre": "Htal. Complejo Sanitario San Luis - SAN LUIS",
+        "prov": "SANLUIS",
+        "prov_nombre": "San Luis"
+      },
+      {
+        "id": "VMERCEDES",
+        "nombre": "Policlinica Regional Juan Domingo Perón - VILLA MERCEDES",
+        "prov": "SANLUIS",
+        "prov_nombre": "San Luis"
+      }
+    ],
+    "SANTACRUZ": [
+      {
+        "id": "RIOGALLEGOS",
+        "nombre": "Htal. Regional de Río Gallegos - RÍO GALLEGOS",
+        "prov": "SANTACRUZ",
+        "prov_nombre": "Santa Cruz"
+      },
+      {
+        "id": "FORMENTI",
+        "nombre": "Htal. SAMIC \"Gobernador Cepernic - Presidente Kirchner\" - CALAFATE",
+        "prov": "SANTACRUZ",
+        "prov_nombre": "Santa Cruz"
+      }
+    ],
+    "SANTAFE": [
+      {
+        "id": "VTUERTO",
+        "nombre": "Htal. Alejandro Gutiérrez - VENADO TUERTO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "RECONQUISTA",
+        "nombre": "Htal. Central de Reconquista \"Dra. Olga Stucky de Rizzi\" - RECONQUISTA",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "STAFEEVAPERON",
+        "nombre": "Htal. Eva Perón - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "ITURRASPE",
+        "nombre": "Htal. Iturraspe - SANTA FE",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "CULLEN",
+        "nombre": "Htal. J. M. Cullen - SANTA FE",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "MARTIN",
+        "nombre": "Htal. Mat. Martín - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "CENTENARIO",
+        "nombre": "Htal. Provincial Centenario - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "PROVROSARIO",
+        "nombre": "Htal. Provincial de Rosario - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "RSAENZPENA",
+        "nombre": "Htal. Roque Sáenz Peña - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "JFERRE",
+        "nombre": "Htal. SAMCO \"Dr. Jaime Ferre\" - RAFAELA",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "VILLACONSTITUCION",
+        "nombre": "Htal. SAMCO \"Dr. Juan E. Milich\" - VILLA CONSTITUCIÓN",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "ORONO",
+        "nombre": "Maternidad Oroño - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "SANATORIODELAMUJER",
+        "nombre": "Maternidad Sanatorio de la Mujer - ROSARIO",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "SANATORIOIPAM",
+        "nombre": "Sanatorio IPAM - SANTA FE",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      }
+    ],
+    "SANTIAGO": [
+      {
+        "id": "CARRILLO",
+        "nombre": "Htal. Ramón Carrillo - CARRILLO",
+        "prov": "SANTIAGO",
+        "prov_nombre": "Santiago del Estero"
+      },
+      {
+        "id": "LABANDA",
+        "nombre": "Maternidad Dr. Faustino Herrera - LA BANDA",
+        "prov": "SANTIAGO",
+        "prov_nombre": "Santiago del Estero"
+      }
+    ],
+    "TIERRADELFUEGO": [
+      {
+        "id": "RIOGRANDE",
+        "nombre": "Htal. Regional Nuestra Señora de La Candelaria - RIO GRANDE",
+        "prov": "TIERRADELFUEGO",
+        "prov_nombre": "Tierra del Fuego"
+      },
+      {
+        "id": "USHUAIA",
+        "nombre": "Htal. Regional Ushuaia \"Gobernador Ernesto M. Campos\" - USHUAIA",
+        "prov": "TIERRADELFUEGO",
+        "prov_nombre": "Tierra del Fuego"
+      }
+    ],
+    "TUCUMAN": [
+      {
+        "id": "DELESTE",
+        "nombre": "Htal. Del Este \"Eva Perón\" - S. M. DE TUCUMÁN",
+        "prov": "TUCUMAN",
+        "prov_nombre": "Tucumán"
+      },
+      {
+        "id": "NAVELLANEDA",
+        "nombre": "Htal. Nicolás Avellaneda - S. M. DE TUCUMÁN",
+        "prov": "TUCUMAN",
+        "prov_nombre": "Tucumán"
+      },
+      {
+        "id": "BELASCUAIN",
+        "nombre": "Htal. Regional Concepción \"Dr. Miguel Belascuain\" - CHICLIGASTA",
+        "prov": "TUCUMAN",
+        "prov_nombre": "Tucumán"
+      },
+      {
+        "id": "SRAMERCEDES",
+        "nombre": "Inst. de Maternidad y Ginecología Nuestra Señora de Las Mercedes- S. M. DE TUCUMÁN",
+        "prov": "TUCUMAN",
+        "prov_nombre": "Tucumán"
+      }
+    ]
+  },
+  "provincias": [
+    {
+      "id": "BUENOSAIRES",
+      "nombre": "Buenos Aires"
+    },
+    {
+      "id": "CABA",
+      "nombre": "CABA"
+    },
+    {
+      "id": "CATAMARCA",
+      "nombre": "Catamarca"
+    },
+    {
+      "id": "CHACO",
+      "nombre": "Chaco"
+    },
+    {
+      "id": "CHUBUT",
+      "nombre": "Chubut"
+    },
+    {
+      "id": "CORDOBA",
+      "nombre": "Córdoba"
+    },
+    {
+      "id": "CORRIENTES",
+      "nombre": "Corrientes"
+    },
+    {
+      "id": "ENTRERIOS",
+      "nombre": "Entre Ríos"
+    },
+    {
+      "id": "FORMOSA",
+      "nombre": "Formosa"
+    },
+    {
+      "id": "JUJUY",
+      "nombre": "Jujuy"
+    },
+    {
+      "id": "LAPAMPA",
+      "nombre": "La Pampa"
+    },
+    {
+      "id": "LARIOJA",
+      "nombre": "La Rioja"
+    },
+    {
+      "id": "MENDOZA",
+      "nombre": "Mendoza"
+    },
+    {
+      "id": "MISIONES",
+      "nombre": "Misiones"
+    },
+    {
+      "id": "NEUQUEN",
+      "nombre": "Neuquén"
+    },
+    {
+      "id": "RIONEGRO",
+      "nombre": "Río Negro"
+    },
+    {
+      "id": "SALTA",
+      "nombre": "Salta"
+    },
+    {
+      "id": "SANJUAN",
+      "nombre": "San Juan"
+    },
+    {
+      "id": "SANLUIS",
+      "nombre": "San Luis"
+    },
+    {
+      "id": "SANTACRUZ",
+      "nombre": "Santa Cruz"
+    },
+    {
+      "id": "SANTAFE",
+      "nombre": "Santa Fe"
+    },
+    {
+      "id": "SANTIAGO",
+      "nombre": "Santiago del Estero"
+    },
+    {
+      "id": "TIERRADELFUEGO",
+      "nombre": "Tierra del Fuego"
+    },
+    {
+      "id": "TUCUMAN",
+      "nombre": "Tucumán"
+    }
+  ]
+}

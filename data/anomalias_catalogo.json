@@ -1,0 +1,395 @@
+[
+  {
+    "id": "hlptrue",
+    "label": "Total AC mayores",
+    "tipo": "total",
+    "factor": 100,
+    "factor_label": "por 100 nacimientos"
+  },
+  {
+    "id": "xdtn",
+    "label": "Sistema Nervioso Central",
+    "tipo": "group",
+    "grupo": "snc",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xanencefalia",
+        "label": "Anencefalia",
+        "tipo": "specific"
+      },
+      {
+        "id": "xencefalocele",
+        "label": "Encefalocele",
+        "tipo": "specific"
+      },
+      {
+        "id": "xespinabifida",
+        "label": "Espina bífida",
+        "tipo": "specific"
+      },
+      {
+        "id": "xhidrocefalia",
+        "label": "Hidrocefalia",
+        "tipo": "specific"
+      },
+      {
+        "id": "xholopro",
+        "label": "Holoprosencefalia",
+        "tipo": "specific"
+      },
+      {
+        "id": "xmicrocefalia",
+        "label": "Microcefalia",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "xcardioseve",
+    "label": "Cardiopatías severas",
+    "tipo": "group",
+    "grupo": "cardio",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xchdccaorta",
+        "label": "Coartación de aorta",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchdcorazonizq",
+        "label": "Hipoplasia corazón izquierdo",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchdfallot",
+        "label": "Tetralogía de Fallot",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchdtgvasos",
+        "label": "Transposición de grandes vasos",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchtroncoartpers",
+        "label": "Tronco arterioso persistente",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchdobleentvi",
+        "label": "Doble entrada ventrículo izquierdo",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchatresiatc",
+        "label": "Atresia tricuspídea",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchebstein",
+        "label": "Anomalía de Ebstein",
+        "tipo": "specific"
+      },
+      {
+        "id": "xcharcoaointerr",
+        "label": "Arco aórtico interrumpido",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchatresiapulm",
+        "label": "Atresia pulmonar",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchanomtotalrvp",
+        "label": "Anomalía total retorno venoso pulm.",
+        "tipo": "specific"
+      },
+      {
+        "id": "xchdoblesalidavd",
+        "label": "Doble salida ventrículo derecho",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "xfisuras",
+    "label": "Fisuras orales",
+    "tipo": "group",
+    "grupo": "fisuras",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xpaladarhendido",
+        "label": "Paladar hendido",
+        "tipo": "specific"
+      },
+      {
+        "id": "xflabio",
+        "label": "Fisura de labio",
+        "tipo": "specific"
+      },
+      {
+        "id": "xflp",
+        "label": "Fisura labio-palatina",
+        "tipo": "specific"
+      },
+      {
+        "id": "xpierrerobin",
+        "label": "Secuencia Pierre-Robin",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "xtalipes",
+    "label": "Talipes",
+    "tipo": "group",
+    "grupo": "talipes",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xequinovar",
+        "label": "Talipes equinovarus",
+        "tipo": "specific"
+      },
+      {
+        "id": "xcalcaneov",
+        "label": "Talipes calcaneovalgus",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "xparedabdtotal",
+    "label": "Defectos de pared abdominal",
+    "tipo": "group",
+    "grupo": "pared_abd",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xonfalocele",
+        "label": "Onfalocele",
+        "tipo": "specific"
+      },
+      {
+        "id": "xgastrosquisis",
+        "label": "Gastrosquisis",
+        "tipo": "specific"
+      },
+      {
+        "id": "xprunebelly",
+        "label": "Prune belly",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "xredmiembro",
+    "label": "Defectos de reducción de miembros",
+    "tipo": "group",
+    "grupo": "reduccion",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xdeftransv",
+        "label": "Def. transverso de miembro",
+        "tipo": "specific"
+      },
+      {
+        "id": "xdefpreaxia",
+        "label": "Def. reducción preaxial",
+        "tipo": "specific"
+      },
+      {
+        "id": "xdefpostaxia",
+        "label": "Def. reducción postaxial",
+        "tipo": "specific"
+      },
+      {
+        "id": "xdefintercalar",
+        "label": "Def. intercalar",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "xcromosomopatias",
+    "label": "Cromosomopatías",
+    "tipo": "group",
+    "grupo": "cromosomo",
+    "factor": 10000,
+    "factor_label": "por 10.000 nacimientos",
+    "children": [
+      {
+        "id": "xdown",
+        "label": "Síndrome de Down",
+        "tipo": "specific"
+      },
+      {
+        "id": "xT18",
+        "label": "Trisomía 18",
+        "tipo": "specific"
+      },
+      {
+        "id": "xT13",
+        "label": "Trisomía 13",
+        "tipo": "specific"
+      }
+    ]
+  },
+  {
+    "id": "_otras",
+    "label": "Otras anomalías",
+    "tipo": "section",
+    "children": [
+      {
+        "id": "xatresiaesofago",
+        "label": "Atresia de esófago",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xatrintestinal",
+        "label": "Atresia intestinal",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xatrduodenal",
+        "label": "Atresia duodenal",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xmalfanorrectal",
+        "label": "Malformación anorrectal",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xherniadiafragmatica",
+        "label": "Hernia diafragmática",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xatresiacoanas",
+        "label": "Atresia de coanas",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xcriptorquidia",
+        "label": "Criptorquidia",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xgenitalambiguo",
+        "label": "Genitales ambiguos",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xhipospadias",
+        "label": "Hipospadias",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xepispadias",
+        "label": "Epispadias",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xagenesiarenal",
+        "label": "Agenesia renal",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xquistesren",
+        "label": "Quistes renales",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xpreaxial",
+        "label": "Polidactilia preaxial",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xpostaxial",
+        "label": "Polidactilia postaxial",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xsindactilia",
+        "label": "Sindactilia",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xmicroanopht",
+        "label": "Microftalmia/anoftalmia",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xmicroanotia",
+        "label": "Microtia/anotia",
+        "tipo": "specific",
+        "factor": 10000
+      }
+    ]
+  },
+  {
+    "id": "_displasias",
+    "label": "Displasias esqueléticas",
+    "tipo": "section",
+    "children": [
+      {
+        "id": "xtanatoforica",
+        "label": "Displasia tanatofórica",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xshortribs",
+        "label": "Costillas cortas-polidactilia",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xacondroplasia",
+        "label": "Acondroplasia",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xoi",
+        "label": "Osteogénesis imperfecta",
+        "tipo": "specific",
+        "factor": 10000
+      },
+      {
+        "id": "xcampomelica",
+        "label": "Displasia campomélica",
+        "tipo": "specific",
+        "factor": 10000
+      }
+    ]
+  }
+]

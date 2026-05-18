@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RENAC — Datos de prevalencia por hospital. Exploración interactiva por hospital, jurisdicción y año.">
+    <title>RENAC — Datos por Hospital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="site-header">
+        <div class="header-inner">
+            <div class="header-brand">
+                <div class="header-logo">
+                    <img src="renac_logo.png" alt="RENAC" style="height:40px; border-radius:4px;">
+                </div>
+                <div class="header-text">
+                    <h1>RENAC · Hospitales</h1>
+                    <p>Datos por hospital · Red Nacional de Anomalías Congénitas</p>
+                </div>
+            </div>
+            <div class="header-meta" id="header-meta"></div>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <div class="nav-inner">
+            <button class="nav-tab active" data-view="temporal">
+                <span class="tab-icon">📈</span> Evolución temporal
+            </button>
+            <button class="nav-tab" data-view="tabla">
+                <span class="tab-icon">📋</span> Tabla de prevalencia
+            </button>
+            <button class="nav-tab" data-view="comparacion">
+                <span class="tab-icon">🏥</span> Comparación
+            </button>
+            <button class="nav-tab" data-view="denominadores">
+                <span class="tab-icon">📊</span> Denominadores
+            </button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+
+        <!-- VISTA 1: EVOLUCIÓN TEMPORAL -->
+        <section id="view-temporal" class="view active">
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label for="filter-anomalia">Anomalía</label>
+                    <select id="filter-anomalia"></select>
+                </div>
+                <div class="filter-group" style="min-width:140px">
+                    <label for="filter-level">Nivel</label>
+                    <select id="filter-level">
+                        <option value="hospital" selected>Hospital</option>
+                        <option value="provincia">Provincia</option>
+                        <option value="pais">Total País</option>
+                    </select>
+                </div>
+                <div class="filter-group" id="fg-entity" style="min-width:300px">
+                    <label for="filter-entity">Hospital</label>
+                    <select id="filter-entity"></select>
+                </div>
+            </div>
+            <div class="content-panel">
+                <div class="panel-header">
+                    <h2 id="temporal-title">Prevalencia por año</h2>
+                    <div class="panel-actions">
+                        <button class="btn-toggle active" data-mode="chart" id="btn-chart">Gráfico</button>
+                        <button class="btn-toggle" data-mode="table" id="btn-table">Tabla</button>
+                        <button class="btn-download" id="btn-download-temporal" title="Descargar">
+                            <svg width="16" height="16" viewBox="0 0 16 16"><path d="M8 1v10M4 8l4 4 4-4M2 14h12" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div id="temporal-chart-container" class="chart-container"><canvas id="temporal-chart"></canvas></div>
+                <div id="temporal-table-container" class="table-container" style="display:none;">
+                    <table id="temporal-table" class="data-table"><thead></thead><tbody></tbody></table>
+                </div>
+                <p class="chart-footnote" id="temporal-footnote"></p>
+            </div>
+        </section>
+
+        <!-- VISTA 2: TABLA DE PREVALENCIA -->
+        <section id="view-tabla" class="view">
+            <div class="filters-bar">
+                <div class="filter-group" style="min-width:140px">
+                    <label for="filter-tabla-level">Nivel</label>
+                    <select id="filter-tabla-level">
+                        <option value="hospital" selected>Hospital</option>
+                        <option value="provincia">Provincia</option>
+                        <option value="pais">Total País</option>
+                    </select>
+                </div>
+                <div class="filter-group" id="fg-tabla-entity" style="min-width:300px">
+                    <label for="filter-tabla-entity">Hospital</label>
+                    <select id="filter-tabla-entity"></select>
+                </div>
+                <div class="filter-group">
+                    <label for="filter-tabla-anio">Año</label>
+                    <select id="filter-tabla-anio"></select>
+                </div>
+            </div>
+            <div class="content-panel">
+                <div class="panel-header">
+                    <h2 id="tabla-title">Prevalencia por anomalía</h2>
+                    <div class="panel-actions">
+                        <button class="btn-download" id="btn-download-tabla" title="Descargar">
+                            <svg width="16" height="16" viewBox="0 0 16 16"><path d="M8 1v10M4 8l4 4 4-4M2 14h12" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table id="prevalencia-table" class="data-table hierarchical"><thead></thead><tbody></tbody></table>
+                </div>
+                <p class="chart-footnote" id="tabla-footnote"></p>
+            </div>
+        </section>
+
+        <!-- VISTA 3: COMPARACIÓN -->
+        <section id="view-comparacion" class="view">
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label for="filter-barras-anomalia">Anomalía</label>
+                    <select id="filter-barras-anomalia"></select>
+                </div>
+                <div class="filter-group">
+                    <label for="filter-barras-anio">Año</label>
+                    <select id="filter-barras-anio"></select>
+                </div>
+                <div class="filter-group" style="min-width:140px">
+                    <label for="filter-barras-level">Nivel</label>
+                    <select id="filter-barras-level">
+                        <option value="hospital" selected>Hospitales</option>
+                        <option value="provincia">Provincias</option>
+                    </select>
+                </div>
+                <div class="filter-group" id="fg-barras-prov">
+                    <label for="filter-barras-prov">Provincia</label>
+                    <select id="filter-barras-prov"></select>
+                </div>
+            </div>
+            <div class="content-panel">
+                <div class="panel-header">
+                    <h2 id="barras-title">Comparación</h2>
+                    <div class="panel-actions">
+                        <button class="btn-download" id="btn-download-barras" title="Descargar">
+                            <svg width="16" height="16" viewBox="0 0 16 16"><path d="M8 1v10M4 8l4 4 4-4M2 14h12" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div id="barras-chart-container" class="chart-container chart-tall"><canvas id="barras-chart"></canvas></div>
+                <p class="chart-footnote" id="barras-footnote"></p>
+            </div>
+        </section>
+
+        <!-- VISTA 4: DENOMINADORES -->
+        <section id="view-denominadores" class="view">
+            <div class="filters-bar">
+                <div class="filter-group" style="min-width:140px">
+                    <label for="filter-denom-level">Nivel</label>
+                    <select id="filter-denom-level">
+                        <option value="hospital" selected>Hospital</option>
+                        <option value="provincia">Provincia</option>
+                        <option value="pais">Total País</option>
+                    </select>
+                </div>
+                <div class="filter-group" id="fg-denom-entity" style="min-width:300px">
+                    <label for="filter-denom-entity">Hospital</label>
+                    <select id="filter-denom-entity"></select>
+                </div>
+            </div>
+            <div class="content-panel">
+                <div class="panel-header">
+                    <h2 id="denom-title">Nacimientos por año</h2>
+                    <div class="panel-actions">
+                        <button class="btn-toggle active" data-mode="chart" id="btn-denom-chart">Gráfico</button>
+                        <button class="btn-toggle" data-mode="table" id="btn-denom-table">Tabla</button>
+                        <button class="btn-download" id="btn-download-denom" title="Descargar">
+                            <svg width="16" height="16" viewBox="0 0 16 16"><path d="M8 1v10M4 8l4 4 4-4M2 14h12" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div id="denom-chart-container" class="chart-container"><canvas id="denom-chart"></canvas></div>
+                <div id="denom-table-container" class="table-container" style="display:none;">
+                    <table id="denom-table" class="data-table"><thead></thead><tbody></tbody></table>
+                </div>
+                <p class="chart-footnote" id="denom-footnote"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer">
+        <div class="footer-inner">
+            <p class="footer-source"><strong>Fuente:</strong> RENAC — Centro Nacional de Genética Médica — ANLIS · Ministerio de Salud de la Nación</p>
+            <p class="footer-notes">Solo hospitales que reportaron en 2025. IC 95% Poisson exacto.</p>
+        </div>
+    </footer>
+
+    <div id="loading-overlay"><div class="spinner"></div><p>Cargando datos...</p></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
