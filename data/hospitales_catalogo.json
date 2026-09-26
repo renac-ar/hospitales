@@ -325,6 +325,12 @@
       "prov_nombre": "Buenos Aires"
     },
     {
+      "id": "GARRAHAN",
+      "nombre": "Htal. de Pediatría \"Prof. Dr. Juan P. Garrahan\" - CABA",
+      "prov": "CABA",
+      "prov_nombre": "CABA"
+    },
+    {
       "id": "GOBCENTENO",
       "nombre": "Htal. Establecimiento Asistencial \"Gdor. Centeno\" - GENERAL PICO",
       "prov": "LAPAMPA",
@@ -475,10 +481,10 @@
       "prov_nombre": "Corrientes"
     },
     {
-      "id": "LRCADE",
-      "nombre": "Htal. Raúl Larcade - BUENOS AIRES",
-      "prov": "BUENOSAIRES",
-      "prov_nombre": "Buenos Aires"
+      "id": "LMOLAS",
+      "nombre": "Htal. Lucio Molas - SANTA ROSA",
+      "prov": "LAPAMPA",
+      "prov_nombre": "La Pampa"
     },
     {
       "id": "MADARIAGA",
@@ -587,6 +593,24 @@
       "nombre": "Htal. Municipal \"Dr. Emilio Ferreyra\" - NECOCHEA",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "NINOSALASSIA",
+      "nombre": "Htal. de Niños \"Dr. Orlando Alassia\" - SANTA FE",
+      "prov": "SANTAFE",
+      "prov_nombre": "Santa Fe"
+    },
+    {
+      "id": "NINOSSANJUSTO",
+      "nombre": "Hospital Municipal del Niño de San Justo \"Dr. Ramón Exeni\" - SAN JUSTO",
+      "prov": "BUENOSAIRES",
+      "prov_nombre": "Buenos Aires"
+    },
+    {
+      "id": "OBERA",
+      "nombre": "Htal. SAMIC de Oberá - OBERÁ",
+      "prov": "MISIONES",
+      "prov_nombre": "Misiones"
     },
     {
       "id": "ONATIVIA",
@@ -835,12 +859,6 @@
       "prov_nombre": "CABA"
     },
     {
-      "id": "SANTORIOLOSARCOS",
-      "nombre": "Sanatorio Los Arcos - CABA",
-      "prov": "CABA",
-      "prov_nombre": "CABA"
-    },
-    {
       "id": "SANVICENTE",
       "nombre": "Hospital Público de San Vicente",
       "prov": "MISIONES",
@@ -851,6 +869,12 @@
       "nombre": "Htal. Materno Infantil \"Ramón Sardá\" - CABA",
       "prov": "CABA",
       "prov_nombre": "CABA"
+    },
+    {
+      "id": "SCHESTAKOW",
+      "nombre": "Htal. \"Teodoro J. Shestakow\" - SAN RAFAEL",
+      "prov": "MENDOZA",
+      "prov_nombre": "Mendoza"
     },
     {
       "id": "SJBAUTISTA",
@@ -1014,6 +1038,12 @@
       {
         "id": "CEMEDA",
         "nombre": "Clínica de Olavarría - OLAVARRIA",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "NINOSSANJUSTO",
+        "nombre": "Hospital Municipal del Niño de San Justo \"Dr. Ramón Exeni\" - SAN JUSTO",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1212,12 +1242,6 @@
       {
         "id": "TANDIL",
         "nombre": "Htal. Ramón Santamarina - TANDIL",
-        "prov": "BUENOSAIRES",
-        "prov_nombre": "Buenos Aires"
-      },
-      {
-        "id": "LRCADE",
-        "nombre": "Htal. Raúl Larcade - BUENOS AIRES",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1482,6 +1506,12 @@
         "prov_nombre": "CABA"
       },
       {
+        "id": "GARRAHAN",
+        "nombre": "Htal. de Pediatría \"Prof. Dr. Juan P. Garrahan\" - CABA",
+        "prov": "CABA",
+        "prov_nombre": "CABA"
+      },
+      {
         "id": "SUIZO",
         "nombre": "Maternidad Suizo Argentina - CABA",
         "prov": "CABA",
@@ -1495,12 +1525,6 @@
       },
       {
         "id": "SANATORIOLOSARCOS",
-        "nombre": "Sanatorio Los Arcos - CABA",
-        "prov": "CABA",
-        "prov_nombre": "CABA"
-      },
-      {
-        "id": "SANTORIOLOSARCOS",
         "nombre": "Sanatorio Los Arcos - CABA",
         "prov": "CABA",
         "prov_nombre": "CABA"
@@ -1732,6 +1756,12 @@
         "nombre": "Htal. Establecimiento Asistencial \"Gdor. Centeno\" - GENERAL PICO",
         "prov": "LAPAMPA",
         "prov_nombre": "La Pampa"
+      },
+      {
+        "id": "LMOLAS",
+        "nombre": "Htal. Lucio Molas - SANTA ROSA",
+        "prov": "LAPAMPA",
+        "prov_nombre": "La Pampa"
       }
     ],
     "LARIOJA": [
@@ -1752,6 +1782,12 @@
       {
         "id": "LAGOMAGGIORE",
         "nombre": "Htal. \"Luis C. Lagomaggiore\" - MENDOZA",
+        "prov": "MENDOZA",
+        "prov_nombre": "Mendoza"
+      },
+      {
+        "id": "SCHESTAKOW",
+        "nombre": "Htal. \"Teodoro J. Shestakow\" - SAN RAFAEL",
         "prov": "MENDOZA",
         "prov_nombre": "Mendoza"
       },
@@ -1796,6 +1832,12 @@
       {
         "id": "ELDORADO",
         "nombre": "Htal. SAMIC de Eldorado - ELDORADO",
+        "prov": "MISIONES",
+        "prov_nombre": "Misiones"
+      },
+      {
+        "id": "OBERA",
+        "nombre": "Htal. SAMIC de Oberá - OBERÁ",
         "prov": "MISIONES",
         "prov_nombre": "Misiones"
       }
@@ -1954,6 +1996,12 @@
       {
         "id": "VILLACONSTITUCION",
         "nombre": "Htal. SAMCO \"Dr. Juan E. Milich\" - VILLA CONSTITUCIÓN",
+        "prov": "SANTAFE",
+        "prov_nombre": "Santa Fe"
+      },
+      {
+        "id": "NINOSALASSIA",
+        "nombre": "Htal. de Niños \"Dr. Orlando Alassia\" - SANTA FE",
         "prov": "SANTAFE",
         "prov_nombre": "Santa Fe"
       },

@@ -1,12 +1,12 @@
 {
   "titulo": "RENAC — Datos por Hospital",
   "fuente": "RENAC — Centro Nacional de Genética Médica — ANLIS",
-  "ultima_actualizacion": "2026-05-17",
+  "ultima_actualizacion": "2026-08-24",
   "rango_anios": [
     2009,
     2025
   ],
-  "total_hospitales": 165,
+  "total_hospitales": 169,
   "notas": [
     "Solo hospitales que reportaron en 2025.",
     "Prevalencia total AC por 100, específicas por 10.000.",
