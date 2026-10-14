@@ -38,7 +38,7 @@
     },
     {
       "id": "APOSTOLES",
-      "nombre": "Htal. Allassia - MISIONES (ES EL QUE CORRESPONDE A APOSTOLES; ANTES DECIA STAFE Y ESTABA MAL)",
+      "nombre": "Htal. “Bernardo Alassia de Apóstoles” – APOSTOLES",
       "prov": "MISIONES",
       "prov_nombre": "Misiones"
     },
@@ -74,7 +74,7 @@
     },
     {
       "id": "BELASCUAIN",
-      "nombre": "Htal. Regional Concepción \"Dr. Miguel Belascuain\" - CHICLIGASTA",
+      "nombre": "Htal. Regional Concepción \"Dr. Miguel Belascuain\" - CONCEPCIÓN",
       "prov": "TUCUMAN",
       "prov_nombre": "Tucumán"
     },
@@ -92,7 +92,7 @@
     },
     {
       "id": "BRAGADO",
-      "nombre": "Htal. Municipal San Luis de Bragado - BRAGADO",
+      "nombre": "Htal. Municipal \"San Luis\" - BRAGADO",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
@@ -104,13 +104,13 @@
     },
     {
       "id": "CARRILLO",
-      "nombre": "Htal. Ramón Carrillo - CARRILLO",
+      "nombre": "Htal. \"Dr. Ramón Carrillo\" - CARRILLO",
       "prov": "SANTIAGO",
       "prov_nombre": "Santiago del Estero"
     },
     {
       "id": "CEMEDA",
-      "nombre": "Clínica de Olavarría - OLAVARRIA",
+      "nombre": "Sanatorio Cemeda - OLAVARRIA",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
@@ -140,19 +140,19 @@
     },
     {
       "id": "CHIVILCOY",
-      "nombre": "Htal. Municipal de Chivilcoy - CHIVILCOY",
+      "nombre": "Htal. Municipal \"Dr. Santiago Fornos\" - CHIVILCOY",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
     {
       "id": "CIUDADELA",
-      "nombre": "Htal. Dr. Ramón Carrillo - CIUDADELA",
+      "nombre": "Htal. \"Dr. Ramón Carrillo\" - CIUDADELA",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
     {
       "id": "CLINICACARRA",
-      "nombre": "Clinica de especialidades Carra - SAN FRANCISCO",
+      "nombre": "Clinica de Especialidades Carra - SAN FRANCISCO",
       "prov": "CORDOBA",
       "prov_nombre": "Córdoba"
     },
@@ -176,31 +176,31 @@
     },
     {
       "id": "CLORINDA",
-      "nombre": "Hospital de Clorinda - FORMOSA",
+      "nombre": "Hospital de Clorinda - CLORINDA",
       "prov": "FORMOSA",
       "prov_nombre": "Formosa"
     },
     {
       "id": "CMLANUS",
-      "nombre": "Clinica Modelo de Lanús - LANÚS",
+      "nombre": "Clínica Modelo de Lanús - LANUS",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
     {
       "id": "CMONTEGRANDE",
-      "nombre": "Clínica Privada de Monte Grande - MONTE GRANDE, ESTEBAN ECHEVERRIA",
+      "nombre": "Clínica Privada de Monte Grande - ESTEBAN ECHEVERRIA",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
     {
       "id": "COMODORO",
-      "nombre": "Htal. C. Rivadavia - COMODORO RIVADAVIA",
+      "nombre": "Htal. \"Dr. Víctor Manuel Sanguinetti\" - COMODORO RIVADAVIA",
       "prov": "CHUBUT",
       "prov_nombre": "Chubut"
     },
     {
       "id": "COMPLSANLUIS",
-      "nombre": "Htal. Complejo Sanitario San Luis - SAN LUIS",
+      "nombre": "Htal. Maternidad Provincial “Dra. Teresita Baigorria” - SAN LUIS",
       "prov": "SANLUIS",
       "prov_nombre": "San Luis"
     },
@@ -212,7 +212,7 @@
     },
     {
       "id": "CRUZDELEJE",
-      "nombre": "Htal. Aurelio Crespo - CRUZ DEL EJE",
+      "nombre": "Htal. “Aurelio Crespo” - CRUZ DEL EJE",
       "prov": "CORDOBA",
       "prov_nombre": "Córdoba"
     },
@@ -236,7 +236,7 @@
     },
     {
       "id": "DELESTE",
-      "nombre": "Htal. Del Este \"Eva Perón\" - S. M. DE TUCUMÁN",
+      "nombre": "Htal. Del Este \"Eva Perón\" – LA BANDA DEL RIO SALÍ",
       "prov": "TUCUMAN",
       "prov_nombre": "Tucumán"
     },
@@ -344,13 +344,13 @@
     },
     {
       "id": "GRALBELGRANO",
-      "nombre": "Htal. Municipal \"Juan de la Fuente\" -  GRALBELGRANO",
+      "nombre": "Htal. Municipal \"Juan de La Fuente\" - GRAL. BELGRANO",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
     {
       "id": "GRALPINEDO",
-      "nombre": "Htal. \"Isaac Waisman\"  - GRAL. PINEDO",
+      "nombre": "Htal. \"Isaac Waisman\" - GRAL. PINEDO",
       "prov": "CHACO",
       "prov_nombre": "Chaco"
     },
@@ -392,7 +392,7 @@
     },
     {
       "id": "HVIAMONTE",
-      "nombre": "Htal. Municipal Gral. Viamonte - JUNIN",
+      "nombre": "Htal. Municipal \"Gral. Viamonte\" - JUNIN",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
@@ -446,7 +446,7 @@
     },
     {
       "id": "LABANDA",
-      "nombre": "Maternidad Dr. Faustino Herrera - LA BANDA",
+      "nombre": "Maternidad “Dr. Faustino Herrera” - LA BANDA",
       "prov": "SANTIAGO",
       "prov_nombre": "Santiago del Estero"
     },
@@ -524,25 +524,25 @@
     },
     {
       "id": "MATMARDEAJO",
-      "nombre": "Maternidad de Mar de Ajó - MATMARDEAJÓ",
+      "nombre": "Maternidad de Mar de Ajó – MAR DE AJÓ",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
     {
       "id": "MATNACCORDOBA",
-      "nombre": "Htal. Maternidad Nacional - CÓRDOBA",
+      "nombre": "Htal. Maternidad Nacional - CÓRDOBA CAPITAL",
       "prov": "CORDOBA",
       "prov_nombre": "Córdoba"
     },
     {
       "id": "MATNEOCORDOBA",
-      "nombre": "Htal. Materno Neonatal - CÓRDOBA",
+      "nombre": "Htal. Materno Neonatal - CÓRDOBA CAPITAL",
       "prov": "CORDOBA",
       "prov_nombre": "Córdoba"
     },
     {
       "id": "MATPROVCORDOBA",
-      "nombre": "Htal. Nueva Maternidad Provincial - CÓRDOBA",
+      "nombre": "Htal. Nueva Maternidad Provincial – CÓRDOBA CAPITAL",
       "prov": "CORDOBA",
       "prov_nombre": "Córdoba"
     },
@@ -572,7 +572,7 @@
     },
     {
       "id": "MYNINO",
-      "nombre": "Htal. Madre y Niño - FORMOSA",
+      "nombre": "Htal. Madre y Niño – FORMOSA CAPITAL",
       "prov": "FORMOSA",
       "prov_nombre": "Formosa"
     },
@@ -596,7 +596,7 @@
     },
     {
       "id": "NINOSALASSIA",
-      "nombre": "Htal. de Niños \"Dr. Orlando Alassia\" - SANTA FE",
+      "nombre": "Htal. de Niños \"Dr. Orlando Alassia\" SANTA FE",
       "prov": "SANTAFE",
       "prov_nombre": "Santa Fe"
     },
@@ -674,7 +674,7 @@
     },
     {
       "id": "PERRUPATO",
-      "nombre": "Htal. Regional Alfredo \"I. Perrupato\" - SAN MARTÍN",
+      "nombre": "Htal. Regional “Alfredo I. Perrupato\" - SAN MARTÍN",
       "prov": "MENDOZA",
       "prov_nombre": "Mendoza"
     },
@@ -710,7 +710,7 @@
     },
     {
       "id": "PTOMADRYN",
-      "nombre": "Htal. Andrés Isola - PUERTO MADRYN",
+      "nombre": "Htal. “Andrés Isola” - PUERTO MADRYN",
       "prov": "CHUBUT",
       "prov_nombre": "Chubut"
     },
@@ -758,7 +758,7 @@
     },
     {
       "id": "RIOGRANDE",
-      "nombre": "Htal. Regional Nuestra Señora de La Candelaria - RIO GRANDE",
+      "nombre": "Htal. Regional “Nuestra Señora de La Candelaria” - RIO GRANDE",
       "prov": "TIERRADELFUEGO",
       "prov_nombre": "Tierra del Fuego"
     },
@@ -818,7 +818,7 @@
     },
     {
       "id": "SANJUANDEDIOS",
-      "nombre": "Htal. San Juan de Dios - RAMOS MEJÍA, LA MATANZA",
+      "nombre": "Htal. San Juan de Dios -  LA MATANZA",
       "prov": "BUENOSAIRES",
       "prov_nombre": "Buenos Aires"
     },
@@ -830,7 +830,7 @@
     },
     {
       "id": "SANMARTINDELOSANDES",
-      "nombre": "Htal. Zonal San Martin de Los Andes \"Dr. Ramón Carrillo\" - SAN MARTÍN DE LOS ANDES",
+      "nombre": "Htal. Zonal \"Dr. Ramón Carrillo\" - SAN MARTÍN DE LOS ANDES",
       "prov": "NEUQUEN",
       "prov_nombre": "Neuquén"
     },
@@ -860,7 +860,7 @@
     },
     {
       "id": "SANVICENTE",
-      "nombre": "Hospital Público de San Vicente",
+      "nombre": "Hospital Z.G.A. \"Dr. Ramon Carrillo\" - SAN VICENTE",
       "prov": "MISIONES",
       "prov_nombre": "Misiones"
     },
@@ -872,7 +872,7 @@
     },
     {
       "id": "SCHESTAKOW",
-      "nombre": "Htal. \"Teodoro J. Shestakow\" - SAN RAFAEL",
+      "nombre": "Htal. \"Teodoro J. Schestakow\" - SAN RAFAEL",
       "prov": "MENDOZA",
       "prov_nombre": "Mendoza"
     },
@@ -896,7 +896,7 @@
     },
     {
       "id": "SRAMERCEDES",
-      "nombre": "Inst. de Maternidad y Ginecología Nuestra Señora de Las Mercedes- S. M. DE TUCUMÁN",
+      "nombre": "Inst. de Maternidad y Ginecología Nuestra Sra. de Las Mercedes - S. M. DE TUCUMÁN",
       "prov": "TUCUMAN",
       "prov_nombre": "Tucumán"
     },
@@ -968,7 +968,7 @@
     },
     {
       "id": "VBARROS",
-      "nombre": "Htal. de la Madre y el Niño (ex Vera Barros) - LA RIOJA",
+      "nombre": "Htal. de la Madre y el Niño - LA RIOJA",
       "prov": "LARIOJA",
       "prov_nombre": "La Rioja"
     },
@@ -1018,32 +1018,32 @@
   "por_provincia": {
     "BUENOSAIRES": [
       {
-        "id": "CMLANUS",
-        "nombre": "Clinica Modelo de Lanús - LANÚS",
-        "prov": "BUENOSAIRES",
-        "prov_nombre": "Buenos Aires"
-      },
-      {
         "id": "CLINICAFATIMA",
         "nombre": "Clínica Fátima - ESCOBAR",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
-        "id": "CMONTEGRANDE",
-        "nombre": "Clínica Privada de Monte Grande - MONTE GRANDE, ESTEBAN ECHEVERRIA",
+        "id": "CMLANUS",
+        "nombre": "Clínica Modelo de Lanús - LANUS",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
-        "id": "CEMEDA",
-        "nombre": "Clínica de Olavarría - OLAVARRIA",
+        "id": "CMONTEGRANDE",
+        "nombre": "Clínica Privada de Monte Grande - ESTEBAN ECHEVERRIA",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
         "id": "NINOSSANJUSTO",
         "nombre": "Hospital Municipal del Niño de San Justo \"Dr. Ramón Exeni\" - SAN JUSTO",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CIUDADELA",
+        "nombre": "Htal. \"Dr. Ramón Carrillo\" - CIUDADELA",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1062,12 +1062,6 @@
       {
         "id": "CUENCALTA",
         "nombre": "Htal. Cuenca Alta Néstor Kirchner - CAÑUELAS",
-        "prov": "BUENOSAIRES",
-        "prov_nombre": "Buenos Aires"
-      },
-      {
-        "id": "CIUDADELA",
-        "nombre": "Htal. Dr. Ramón Carrillo - CIUDADELA",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1204,32 +1198,32 @@
         "prov_nombre": "Buenos Aires"
       },
       {
-        "id": "GRALBELGRANO",
-        "nombre": "Htal. Municipal \"Juan de la Fuente\" -  GRALBELGRANO",
+        "id": "CHIVILCOY",
+        "nombre": "Htal. Municipal \"Dr. Santiago Fornos\" - CHIVILCOY",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
         "id": "HVIAMONTE",
-        "nombre": "Htal. Municipal Gral. Viamonte - JUNIN",
+        "nombre": "Htal. Municipal \"Gral. Viamonte\" - JUNIN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "GRALBELGRANO",
+        "nombre": "Htal. Municipal \"Juan de La Fuente\" - GRAL. BELGRANO",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
         "id": "BRAGADO",
-        "nombre": "Htal. Municipal San Luis de Bragado - BRAGADO",
+        "nombre": "Htal. Municipal \"San Luis\" - BRAGADO",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
         "id": "BOLIVAR",
         "nombre": "Htal. Municipal Subzonal Miguel Capredoni - BOLIVAR",
-        "prov": "BUENOSAIRES",
-        "prov_nombre": "Buenos Aires"
-      },
-      {
-        "id": "CHIVILCOY",
-        "nombre": "Htal. Municipal de Chivilcoy - CHIVILCOY",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1259,7 +1253,7 @@
       },
       {
         "id": "SANJUANDEDIOS",
-        "nombre": "Htal. San Juan de Dios - RAMOS MEJÍA, LA MATANZA",
+        "nombre": "Htal. San Juan de Dios -  LA MATANZA",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1367,13 +1361,19 @@
       },
       {
         "id": "MATMARDEAJO",
-        "nombre": "Maternidad de Mar de Ajó - MATMARDEAJÓ",
+        "nombre": "Maternidad de Mar de Ajó – MAR DE AJÓ",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
       {
         "id": "ANCHORENASMARTIN",
         "nombre": "Sanatorio Anchorena - SAN MARTÍN",
+        "prov": "BUENOSAIRES",
+        "prov_nombre": "Buenos Aires"
+      },
+      {
+        "id": "CEMEDA",
+        "nombre": "Sanatorio Cemeda - OLAVARRIA",
         "prov": "BUENOSAIRES",
         "prov_nombre": "Buenos Aires"
       },
@@ -1553,7 +1553,7 @@
     "CHACO": [
       {
         "id": "GRALPINEDO",
-        "nombre": "Htal. \"Isaac Waisman\"  - GRAL. PINEDO",
+        "nombre": "Htal. \"Isaac Waisman\" - GRAL. PINEDO",
         "prov": "CHACO",
         "prov_nombre": "Chaco"
       },
@@ -1578,14 +1578,8 @@
         "prov_nombre": "Chubut"
       },
       {
-        "id": "PTOMADRYN",
-        "nombre": "Htal. Andrés Isola - PUERTO MADRYN",
-        "prov": "CHUBUT",
-        "prov_nombre": "Chubut"
-      },
-      {
         "id": "COMODORO",
-        "nombre": "Htal. C. Rivadavia - COMODORO RIVADAVIA",
+        "nombre": "Htal. \"Dr. Víctor Manuel Sanguinetti\" - COMODORO RIVADAVIA",
         "prov": "CHUBUT",
         "prov_nombre": "Chubut"
       },
@@ -1608,6 +1602,12 @@
         "prov_nombre": "Chubut"
       },
       {
+        "id": "PTOMADRYN",
+        "nombre": "Htal. “Andrés Isola” - PUERTO MADRYN",
+        "prov": "CHUBUT",
+        "prov_nombre": "Chubut"
+      },
+      {
         "id": "IMDELSUR",
         "nombre": "Instituto Médico del Sur",
         "prov": "CHUBUT",
@@ -1617,13 +1617,7 @@
     "CORDOBA": [
       {
         "id": "CLINICACARRA",
-        "nombre": "Clinica de especialidades Carra - SAN FRANCISCO",
-        "prov": "CORDOBA",
-        "prov_nombre": "Córdoba"
-      },
-      {
-        "id": "CRUZDELEJE",
-        "nombre": "Htal. Aurelio Crespo - CRUZ DEL EJE",
+        "nombre": "Clinica de Especialidades Carra - SAN FRANCISCO",
         "prov": "CORDOBA",
         "prov_nombre": "Córdoba"
       },
@@ -1635,19 +1629,19 @@
       },
       {
         "id": "MATNACCORDOBA",
-        "nombre": "Htal. Maternidad Nacional - CÓRDOBA",
+        "nombre": "Htal. Maternidad Nacional - CÓRDOBA CAPITAL",
         "prov": "CORDOBA",
         "prov_nombre": "Córdoba"
       },
       {
         "id": "MATNEOCORDOBA",
-        "nombre": "Htal. Materno Neonatal - CÓRDOBA",
+        "nombre": "Htal. Materno Neonatal - CÓRDOBA CAPITAL",
         "prov": "CORDOBA",
         "prov_nombre": "Córdoba"
       },
       {
         "id": "MATPROVCORDOBA",
-        "nombre": "Htal. Nueva Maternidad Provincial - CÓRDOBA",
+        "nombre": "Htal. Nueva Maternidad Provincial – CÓRDOBA CAPITAL",
         "prov": "CORDOBA",
         "prov_nombre": "Córdoba"
       },
@@ -1666,6 +1660,12 @@
       {
         "id": "VILLAMARIA",
         "nombre": "Htal. Regional \"Luis Pasteur\" - VILLA MARÍA",
+        "prov": "CORDOBA",
+        "prov_nombre": "Córdoba"
+      },
+      {
+        "id": "CRUZDELEJE",
+        "nombre": "Htal. “Aurelio Crespo” - CRUZ DEL EJE",
         "prov": "CORDOBA",
         "prov_nombre": "Córdoba"
       }
@@ -1719,13 +1719,13 @@
     "FORMOSA": [
       {
         "id": "CLORINDA",
-        "nombre": "Hospital de Clorinda - FORMOSA",
+        "nombre": "Hospital de Clorinda - CLORINDA",
         "prov": "FORMOSA",
         "prov_nombre": "Formosa"
       },
       {
         "id": "MYNINO",
-        "nombre": "Htal. Madre y Niño - FORMOSA",
+        "nombre": "Htal. Madre y Niño – FORMOSA CAPITAL",
         "prov": "FORMOSA",
         "prov_nombre": "Formosa"
       }
@@ -1773,7 +1773,7 @@
       },
       {
         "id": "VBARROS",
-        "nombre": "Htal. de la Madre y el Niño (ex Vera Barros) - LA RIOJA",
+        "nombre": "Htal. de la Madre y el Niño - LA RIOJA",
         "prov": "LARIOJA",
         "prov_nombre": "La Rioja"
       }
@@ -1787,7 +1787,7 @@
       },
       {
         "id": "SCHESTAKOW",
-        "nombre": "Htal. \"Teodoro J. Shestakow\" - SAN RAFAEL",
+        "nombre": "Htal. \"Teodoro J. Schestakow\" - SAN RAFAEL",
         "prov": "MENDOZA",
         "prov_nombre": "Mendoza"
       },
@@ -1798,14 +1798,14 @@
         "prov_nombre": "Mendoza"
       },
       {
-        "id": "PERRUPATO",
-        "nombre": "Htal. Regional Alfredo \"I. Perrupato\" - SAN MARTÍN",
+        "id": "MALARGUE",
+        "nombre": "Htal. Regional Malargue- MALARGUE",
         "prov": "MENDOZA",
         "prov_nombre": "Mendoza"
       },
       {
-        "id": "MALARGUE",
-        "nombre": "Htal. Regional Malargue- MALARGUE",
+        "id": "PERRUPATO",
+        "nombre": "Htal. Regional “Alfredo I. Perrupato\" - SAN MARTÍN",
         "prov": "MENDOZA",
         "prov_nombre": "Mendoza"
       }
@@ -1813,13 +1813,7 @@
     "MISIONES": [
       {
         "id": "SANVICENTE",
-        "nombre": "Hospital Público de San Vicente",
-        "prov": "MISIONES",
-        "prov_nombre": "Misiones"
-      },
-      {
-        "id": "APOSTOLES",
-        "nombre": "Htal. Allassia - MISIONES (ES EL QUE CORRESPONDE A APOSTOLES; ANTES DECIA STAFE Y ESTABA MAL)",
+        "nombre": "Hospital Z.G.A. \"Dr. Ramon Carrillo\" - SAN VICENTE",
         "prov": "MISIONES",
         "prov_nombre": "Misiones"
       },
@@ -1840,6 +1834,12 @@
         "nombre": "Htal. SAMIC de Oberá - OBERÁ",
         "prov": "MISIONES",
         "prov_nombre": "Misiones"
+      },
+      {
+        "id": "APOSTOLES",
+        "nombre": "Htal. “Bernardo Alassia de Apóstoles” – APOSTOLES",
+        "prov": "MISIONES",
+        "prov_nombre": "Misiones"
       }
     ],
     "NEUQUEN": [
@@ -1857,7 +1857,7 @@
       },
       {
         "id": "SANMARTINDELOSANDES",
-        "nombre": "Htal. Zonal San Martin de Los Andes \"Dr. Ramón Carrillo\" - SAN MARTÍN DE LOS ANDES",
+        "nombre": "Htal. Zonal \"Dr. Ramón Carrillo\" - SAN MARTÍN DE LOS ANDES",
         "prov": "NEUQUEN",
         "prov_nombre": "Neuquén"
       }
@@ -1907,7 +1907,7 @@
     "SANLUIS": [
       {
         "id": "COMPLSANLUIS",
-        "nombre": "Htal. Complejo Sanitario San Luis - SAN LUIS",
+        "nombre": "Htal. Maternidad Provincial “Dra. Teresita Baigorria” - SAN LUIS",
         "prov": "SANLUIS",
         "prov_nombre": "San Luis"
       },
@@ -2001,7 +2001,7 @@
       },
       {
         "id": "NINOSALASSIA",
-        "nombre": "Htal. de Niños \"Dr. Orlando Alassia\" - SANTA FE",
+        "nombre": "Htal. de Niños \"Dr. Orlando Alassia\" SANTA FE",
         "prov": "SANTAFE",
         "prov_nombre": "Santa Fe"
       },
@@ -2027,27 +2027,27 @@
     "SANTIAGO": [
       {
         "id": "CARRILLO",
-        "nombre": "Htal. Ramón Carrillo - CARRILLO",
+        "nombre": "Htal. \"Dr. Ramón Carrillo\" - CARRILLO",
         "prov": "SANTIAGO",
         "prov_nombre": "Santiago del Estero"
       },
       {
         "id": "LABANDA",
-        "nombre": "Maternidad Dr. Faustino Herrera - LA BANDA",
+        "nombre": "Maternidad “Dr. Faustino Herrera” - LA BANDA",
         "prov": "SANTIAGO",
         "prov_nombre": "Santiago del Estero"
       }
     ],
     "TIERRADELFUEGO": [
       {
-        "id": "RIOGRANDE",
-        "nombre": "Htal. Regional Nuestra Señora de La Candelaria - RIO GRANDE",
+        "id": "USHUAIA",
+        "nombre": "Htal. Regional Ushuaia \"Gobernador Ernesto M. Campos\" - USHUAIA",
         "prov": "TIERRADELFUEGO",
         "prov_nombre": "Tierra del Fuego"
       },
       {
-        "id": "USHUAIA",
-        "nombre": "Htal. Regional Ushuaia \"Gobernador Ernesto M. Campos\" - USHUAIA",
+        "id": "RIOGRANDE",
+        "nombre": "Htal. Regional “Nuestra Señora de La Candelaria” - RIO GRANDE",
         "prov": "TIERRADELFUEGO",
         "prov_nombre": "Tierra del Fuego"
       }
@@ -2055,7 +2055,7 @@
     "TUCUMAN": [
       {
         "id": "DELESTE",
-        "nombre": "Htal. Del Este \"Eva Perón\" - S. M. DE TUCUMÁN",
+        "nombre": "Htal. Del Este \"Eva Perón\" – LA BANDA DEL RIO SALÍ",
         "prov": "TUCUMAN",
         "prov_nombre": "Tucumán"
       },
@@ -2067,13 +2067,13 @@
       },
       {
         "id": "BELASCUAIN",
-        "nombre": "Htal. Regional Concepción \"Dr. Miguel Belascuain\" - CHICLIGASTA",
+        "nombre": "Htal. Regional Concepción \"Dr. Miguel Belascuain\" - CONCEPCIÓN",
         "prov": "TUCUMAN",
         "prov_nombre": "Tucumán"
       },
       {
         "id": "SRAMERCEDES",
-        "nombre": "Inst. de Maternidad y Ginecología Nuestra Señora de Las Mercedes- S. M. DE TUCUMÁN",
+        "nombre": "Inst. de Maternidad y Ginecología Nuestra Sra. de Las Mercedes - S. M. DE TUCUMÁN",
         "prov": "TUCUMAN",
         "prov_nombre": "Tucumán"
       }
